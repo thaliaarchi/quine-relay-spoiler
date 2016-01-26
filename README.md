@@ -29,7 +29,7 @@ First, you have to type the following apt-get command to install all of them.
 
     $ sudo apt-get install afnix algol68g aplus-fsf asymptote \
       ats-lang-anairiats bash bc bf bsdgames cduce clisp clojure1.6 cmake \
-      coffeescript dc ecere-sdk elixir emacs24 erlang f2c fp-compiler fsharp \
+      coffeescript dc ecere-dev elixir emacs24 erlang f2c fp-compiler fsharp \
       g++ gambas3-script gap gauche gawk gcc gdc genius gforth gfortran ghc \
       ghostscript gnat gnu-smalltalk gnuplot gobjc golang gpt gri groff \
       groovy haxe icont iconx intercal iverilog jasmin-sable jq julia \
@@ -221,7 +221,7 @@ I used the following Ubuntu deb packages to test this program.
 41  |Common Lisp        |clisp              |1:2.49-9ubuntu1
 42  |D                  |gdc                |4:5.2.1-3ubuntu1
 43  |dc                 |dc                 |1.06.95-9build1
-44  |eC                 |ecere-sdk          |0.44.11-0ubuntu1
+44  |eC                 |ecere-dev          |0.44.11-0ubuntu1
 45  |Elixir             |elixir             |1.1.0~0.20150708-1
 46  |Emacs Lisp         |emacs24            |24.5+1-1ubuntu2
 47  |Erlang             |erlang             |1:18.0-dfsg-1ubuntu1
@@ -244,7 +244,7 @@ I used the following Ubuntu deb packages to test this program.
     |                   |iconx              |9.4.3-4.2ubuntu1
 64  |INTERCAL           |intercal           |30:0.30-1
 65  |Jasmin             |jasmin-sable       |2.4.0-5
-66  |Java               |openjdk-6-jdk      |6b36-1.13.8-0ubuntu1
+66  |Java               |openjdk-6-jdk      |6b37-1.13.9-1ubuntu0.15.10.1
 67  |JavaScript         |rhino              |1.7R4-3
 68  |Jq                 |jq                 |1.4-2.1
 69  |Julia              |julia              |0.3.11-1ubuntu3
@@ -268,7 +268,7 @@ I used the following Ubuntu deb packages to test this program.
 87  |PARI/GP            |pari-gp            |2.7.4-2
 88  |Parrot asm         |parrot             |6.6.0-1build1
 89  |Pascal             |fp-compiler        |2.6.4+dfsg-8
-90  |Perl               |perl               |5.20.2-6
+90  |Perl               |perl               |5.20.2-6ubuntu0.1
 91  |PHP                |php5-cli           |5.6.11+dfsg-1ubuntu3.1
 92  |Piet               |*N/A*              |-
 93  |Pike               |pike8.0            |8.0.28-3
