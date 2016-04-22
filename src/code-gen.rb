@@ -120,7 +120,7 @@ end
 class PHP_Piet < CodeGen
   File = ["QR.php", "QR.png"]
   Cmd = ["php QR.php > OUTFILE", "npiet QR.png > OUTFILE"]
-  Apt = ["php5-cli", nil]
+  Apt = ["php-cli", nil]
   def code
     <<-'END'.lines.map {|l| l.strip }.join
       %(
@@ -318,6 +318,13 @@ class MSIL < CodeGen
   end
 end
 
+class MiniZinc < CodeGen
+  File = "QR.mzn"
+  Cmd = "mzn2fzn QR.mzn && fzn-gecode QR.fzn | solns2out --soln-sep '' QR.ozn > OUTFILE"
+  Apt = "minizinc"
+  Code = %q("solve satisfy;output [#{E[PREV]}];")
+end
+
 class Maxima < CodeGen
   File = "QR.mac"
   Cmd = "maxima -q --init-mac=QR.mac > OUTFILE"
@@ -375,7 +382,7 @@ class LLVMAsm < CodeGen
           c"#{s.gsub(/[\\"]/){"\\%X"%$&.ord}}\\00"
         declare i32@puts(i8*)
         define i32@main(){
-          %1=call i32@puts(i8*getelementptr([#{i}x i8]*@s,i32 0,i32 0))
+          %1=call i32@puts(i8*getelementptr([#{i}x i8],[#{i}x i8]*@s,i32 0,i32 0))
           ret i32 0
         }
       )
@@ -403,23 +410,25 @@ class Julia_LazyK_Lisaac < CodeGen
       %(
         A=print;
         A("k`");
-        for c in join([
-            "SectionHeader+name:=QR;SectionPublic-main<-(",
-            ["\\"$(replace(replace(s,"\\\\","\\\\\\\\"),"\\"","\\\\\\""))\\".print;"for s=matchall(r".{1,99}",#{Q[E[PREV]]})],
+        [
+          (
+            A("``s"^8*"i");
+            for j=6:-1:0;
+              x=(Int(c)>>j)%2+1;
+              A("`"*"kki"[x:x+1])
+            end
+          )for c in join([
+            "SectionHeader+name:=QR;SectionPublic-main<-(";
+            ["\\"$(replace(replace(s,"\\\\","\\\\\\\\"),"\\"","\\\\\\""))\\".print;"for s=matchall(r".{1,99}",#{Q[E[PREV]]})];
             ");"
-        ],"\\n");
-          A("``s"^8*"i");
-          for j=6:-1:0;
-            x=(c>>j)%2+1;
-            A("`"*"kki"[x:x+1])
-          end;
-        end;
-        for c in"LAZYK";
+          ],"\\n")
+        ];
+        [
           for i=0:2:4;
-            x=((c%83-10)>>i)%4+1;
+            x=((Int(c)%83-10)>>i)%4+1;
             A("ski`"[x:x])
-          end;
-        end
+          end for c in"LAZYK"
+        ]
       )
     END
   end
@@ -443,7 +452,7 @@ class Java_ < CodeGen
   Name = "Java"
   File = "QR.java"
   Cmd = "javac QR.java && java QR > OUTFILE"
-  Apt = "openjdk-6-jdk"
+  Apt = "openjdk-8-jdk"
   def code
     # LZ78-like compression
     <<-'END'.lines.map {|l| l.strip }.join
@@ -913,9 +922,9 @@ end
 
 class ATS < CodeGen
   File = "QR.dats"
-  Cmd = "atscc -o QR QR.dats && ./QR > OUTFILE"
-  Apt = "ats-lang-anairiats"
-  Code = %q("implement main()=print"+E[PREV])
+  Cmd = "patscc -o QR QR.dats && ./QR > OUTFILE"
+  Apt = "ats2-lang"
+  Code = %q("implement main0()=print"+E[PREV])
 end
 
 class Asymptote < CodeGen
@@ -1081,13 +1090,6 @@ class StandardML_Subleq < CodeGen
   end
 end
 
-class SPL < CodeGen
-  File = "QR.spl"
-  Cmd = "splrun QR.spl > OUTFILE"
-  Apt = "spl-core"
-  Code = %q("write#{Q[E[PREV]]};")
-end
-
 class Smalltalk < CodeGen
   File = "QR.st"
   Cmd = "gst QR.st > OUTFILE"
@@ -1139,7 +1141,7 @@ end
 class Ruby < CodeGen
   File = "QR.rb"
   Cmd = "ruby QR.rb > OUTFILE"
-  Apt = "ruby2.1"
+  Apt = "ruby"
   Code = nil
 end
 
