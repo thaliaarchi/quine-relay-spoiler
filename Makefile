@@ -7,7 +7,7 @@ find_any0 = $(firstword $(foreach x,$(1),$(if $(shell which $(x) 2>/dev/null),$(
 check = $(if $(2),$(2),$(error $(1) interpreter not found!))
 find_any = $(call check,$(1),$(call find_any0,$(2)))
 
-JAVASCRIPT := $(call find_any,JavaScript,rhino nodejs node js)
+JAVASCRIPT := $(call find_any,JavaScript,nodejs node js)
 SCHEME     := $(call find_any,Scheme,guile csi gosh)
 BF         := $(call find_any,Brainfuck,bf beef)
 GBS        := $(call find_any,Gambas script,gbs3 gbs2)
@@ -63,7 +63,7 @@ QR.bash: QR.sci
 	@echo "##  4: Scilab -> Shell (bash)  ##"
 	@echo "#################################"
 	@echo
-	scilab -nw -nb -f QR.sci > QR.bash
+	scilab -nwni -nb -f QR.sci > QR.bash
 
 QR.sl: QR.bash
 	@echo
@@ -523,22 +523,22 @@ QR.gpt: QR.go
 	@echo
 	go run QR.go > QR.gpt
 
-QR.gri: QR.gpt
+QR.grass: QR.gpt
 	@echo
-	@echo "#############################"
-	@echo "##  59: G-Portugol -> Gri  ##"
-	@echo "#############################"
+	@echo "###############################"
+	@echo "##  59: G-Portugol -> Grass  ##"
+	@echo "###############################"
 	@echo
 	gpt -o QR QR.gpt
-	./QR > QR.gri
+	./QR > QR.grass
 
-QR.groovy: QR.gri
+QR.groovy: QR.grass
 	@echo
-	@echo "#########################"
-	@echo "##  60: Gri -> Groovy  ##"
-	@echo "#########################"
+	@echo "###########################"
+	@echo "##  60: Grass -> Groovy  ##"
+	@echo "###########################"
 	@echo
-	gri QR.gri > QR.groovy
+	ruby vendor/grass.rb QR.grass > QR.groovy
 
 QR.hs: QR.groovy
 	@echo

@@ -32,7 +32,7 @@ class CodeGen
     a.transpose.map do |name, src, cmd_make, backup, apt|
       cmd_raw = cmd_make
       cmd_raw = cmd_raw.gsub("$(SCHEME)", "gosh")
-      cmd_raw = cmd_raw.gsub("$(JAVASCRIPT)", "rhino")
+      cmd_raw = cmd_raw.gsub("$(JAVASCRIPT)", "nodejs")
       cmd_raw = cmd_raw.gsub("$(BF)", "bf")
       cmd_raw = cmd_raw.gsub("$(CC)", "gcc")
       cmd_raw = cmd_raw.gsub("$(CXX)", "g++")
@@ -193,14 +193,14 @@ class Perl < CodeGen
   end
 end
 
-# pool
-#class Perl6 < CodeGen
-#  Name = "Perl 6"
-#  File = "QR.pl6"
-#  Cmd = "perl6 QR.pl6 > OUTFILE"
-#  Apt = "rakudo"
-#  Code = %q("print"+E[PREV])
-#end
+class Perl6 < CodeGen
+  Disabled = true
+  Name = "Perl 6"
+  File = "QR.pl6"
+  Cmd = "perl6 QR.pl6 > OUTFILE"
+  Apt = "rakudo"
+  Code = %q("print"+E[PREV])
+end
 
 class Pascal < CodeGen
   File = "QR.pas"
@@ -341,13 +341,13 @@ class Makefile < CodeGen
   Code = %q("all:\n\t@echo '#{d[PREV,?$].gsub(?'){"'\\\\''"}}'")
 end
 
-# pool
-#class M4 < CodeGen
-#  File = "QR.m4"
-#  Cmd = "m4 QR.m4 > OUTFILE"
-#  Apt = "make"
-#  Code = %q("changequote(<@,@>)\ndefine(p,<@#{PREV}@>)\np")
-#end
+class M4 < CodeGen
+  Disabled = true
+  File = "QR.m4"
+  Cmd = "m4 QR.m4 > OUTFILE"
+  Apt = "make"
+  Code = %q("changequote(<@,@>)\ndefine(p,<@#{PREV}@>)\np")
+end
 
 class Lua < CodeGen
   File = "QR.lua"
@@ -392,6 +392,15 @@ class LLVMAsm < CodeGen
       )
     END
   end
+end
+
+class LiveScript < CodeGen
+  Disabled = true
+  Name = "LiveScript"
+  File = "QR.ls"
+  Cmd = "lsc QR.ls > OUTFILE"
+  Apt = "livescript"
+  Code = %q("console.log"+Q[E[PREV],?#])
 end
 
 class Julia_LazyK_Lisaac < CodeGen
@@ -448,8 +457,8 @@ end
 class JavaScript < CodeGen
   File = "QR.js"
   Cmd = "$(JAVASCRIPT) QR.js > OUTFILE"
-  Apt = "rhino"
-  Code = %q("s=#{E[PREV]};typeof print=='function'?print(s):console.log('%s',s)")
+  Apt = "nodejs"
+  Code = %q("console.log('%s',#{E[PREV]})")
 end
 
 class Java_ < CodeGen
@@ -558,35 +567,55 @@ class Haskell < CodeGen
   Code = %q("main=putStr"+E[PREV])
 end
 
-class Gri_Groovy < CodeGen
-  File = ["QR.gri", "QR.groovy"]
-  Cmd = ["gri QR.gri > OUTFILE", "groovy QR.groovy > OUTFILE"]
-  Apt = ["gri", "groovy"]
+class Groovy < CodeGen
+  File = "QR.groovy"
+  Cmd = "groovy QR.groovy > OUTFILE"
+  Apt = "groovy"
   def code
     <<-'END'.lines.map {|l| l.strip }.join
-      %(\\q="\\""\n)+
-      f(PREV.tr(B,?&),51){
-        %(show "print'#{e[$s].gsub B+?",%(" "\\q" ")}'.tr('&','\\\\\\\\');"\n)
-      }
+      "print#{E[PREV]}"
     END
   end
 end
 
-class Go_GPortugol < CodeGen
-  Name = ["Go", "G-Portugol"]
-  File = ["QR.go", "QR.gpt"]
-  Cmd = ["go run QR.go > OUTFILE", "gpt -o QR QR.gpt && ./QR > OUTFILE"]
-  Apt = ["golang", "gpt"]
+class Go_GPortugol_Grass < CodeGen
+  Name = ["Go", "G-Portugol", "Grass"]
+  File = ["QR.go", "QR.gpt", "QR.grass"]
+  Cmd = ["go run QR.go > OUTFILE", "gpt -o QR QR.gpt && ./QR > OUTFILE", "ruby vendor/grass.rb QR.grass > OUTFILE"]
+  Apt = ["golang", "gpt", nil]
   def code
-    <<-'END'.lines.map {|l| l.strip }.join
+    r = <<-'END'.lines.map {|l| l.strip }.join
       %(
         package main;
-        import"fmt";
+        import(F"fmt";S"strings");
+        func t(s string)string{
+          r:="";
+          for i,n:=range s{
+            if n<48{
+              r+="v"
+            }else{
+              r+=S.Repeat("Ww"[i%2:i%2+1],int(n)-48)
+            }
+          };
+          return r
+        };
         func main(){
-          fmt.Print("algoritmo QR;in\\xC3\\xADcio imprima(\\\"#{e[e[PREV]]}\\\");fim")
+          s:=@@PROLOGUE@@;
+          for i,n:=range#{E[PREV]}{
+            s+="W"+S.Repeat("w",(@@BASE@@+i-int(n))%@@MOD@@+1)
+          };
+          F.Print("algoritmo QR;in\\xC3\\xADcio imprima(\\\""+s+@@EPILOGUE@@+"\\\");fim");
         }
       )
     END
+    mod, prologue, epilogue = ::File.read(::File.join(__dir__, "grass-boot.dat")).lines
+    mod = mod.to_i
+    r.gsub(/@@\w+@@/, {
+      "@@PROLOGUE@@" => prologue.chomp,
+      "@@EPILOGUE@@" => epilogue.chomp,
+      "@@BASE@@" => 119 + mod,
+      "@@MOD@@" => mod,
+    })
   end
 end
 
@@ -602,7 +631,7 @@ class GEL < CodeGen
   File = "QR.gel"
   Cmd = "genius QR.gel > OUTFILE"
   Apt = "genius"
-  Code = %q(f(PREV,62){"printn#$S\n"})
+  Code = %q(f(PREV,61){"printn#$S\n"})
 end
 
 class GAP < CodeGen
@@ -722,6 +751,14 @@ class D < CodeGen
   Cmd = "gdc -o QR QR.d && ./QR > OUTFILE"
   Apt = "gdc"
   Code = %q("import std.stdio;void main(){write(`#{PREV}`);}")
+end
+
+class Curry < CodeGen
+  Disabled = true
+  File = "QR.curry"
+  Cmd = "runcurry QR.curry > OUTFILE"
+  Apt = "pakcs"
+  Code = %q("main=putStr"+E[PREV])
 end
 
 class CommonLisp < CodeGen
@@ -1007,6 +1044,14 @@ class Yorick < CodeGen
   Code = %q(%(write,format="#{y="";f(PREV,35){y<<",\\n"+$S;"%s"}}")+y)
 end
 
+class Yabasic < CodeGen
+  Disabled = true
+  File = "QR.yab"
+  Cmd = "yabasic QR.yab > OUTFILE"
+  Apt = "yabasic"
+  Code = %q(f(PREV,50){"print#$S;:"})
+end
+
 class XSLT < CodeGen
   File = "QR.xslt"
   Cmd = "xsltproc QR.xslt > OUTFILE"
@@ -1053,6 +1098,15 @@ class VisualBasic_Whitespace < CodeGen
       End Module)
     END
   end
+end
+
+class VimScript < CodeGen
+  Disabled = true
+  Name = ["Vimscript"]
+  Apt = "vim"
+  File = "QR.vim"
+  Cmd = "vim -EsS QR.vim > OUTFILE"
+  Code = %q("let s=#{E[PREV]}\nput=s\nprint\nqa!")
 end
 
 class Verilog < CodeGen
@@ -1122,14 +1176,14 @@ class Shell_SLang < CodeGen
   Apt = ["bash", "slsh"]
   def code
     <<-'END'.lines.map {|l| l.strip }.join
-      %[echo -En "#{Q[e[e[PREV]]]}"|sed -E -e 's/([^\\\\]|\\\\.){1,120}/printf("%s","\\0");\\n/g']
+      %[echo -En "#{Q[e[e[PREV]]]}"|sed -E -e 's/([^\\\\]|\\\\.){1,118}/()=printf("%s","\\0");\\n/g']
     END
   end
 end
 
 class Scilab < CodeGen
   File = "QR.sci"
-  Cmd = "scilab -nw -nb -f QR.sci > OUTFILE"
+  Cmd = "scilab -nwni -nb -f QR.sci > OUTFILE"
   Apt = "scilab"
   Code = %q(%(#{f(PREV,7){%(printf("%s","#{d[d[$s],?']}")\n)}}quit))
 end
@@ -1156,13 +1210,13 @@ class Scala < CodeGen
   end
 end
 
-# pool
-#class Rust < CodeGen
-#  File = "QR.rs"
-#  Cmd = "rustc QR.rs && ./QR > OUTFILE"
-#  Apt = "rustc"
-#  Code = %q(%(fn main(){print!("{}",#{E[PREV]});}))
-#end
+class Rust < CodeGen
+  Disabled = true
+  File = "QR.rs"
+  Cmd = "rustc QR.rs && ./QR > OUTFILE"
+  Apt = "rustc"
+  Code = %q(%(fn main(){print!("{}",#{E[PREV]});}))
+end
 
 class Ruby < CodeGen
   File = "QR.rb"
@@ -1171,5 +1225,6 @@ class Ruby < CodeGen
   Code = nil
 end
 
+CodeGen::List.reject! {|s| defined?(s::Disabled) }
 GenSteps = CodeGen::List.map {|s| s.gen_step }
 RunSteps = CodeGen::List.reverse.flat_map {|s| s.run_steps }

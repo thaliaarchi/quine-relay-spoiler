@@ -41,7 +41,6 @@ RUN apt-get -qq install -y gnuplot && apt-get clean
 RUN apt-get -qq install -y gobjc && apt-get clean
 RUN apt-get -qq install -y golang && apt-get clean
 RUN apt-get -qq install -y gpt && apt-get clean
-RUN apt-get -qq install -y gri && apt-get clean
 RUN apt-get -qq install -y groff && apt-get clean
 RUN apt-get -qq install -y groovy && apt-get clean
 RUN apt-get -qq install -y haxe && apt-get clean
@@ -68,6 +67,7 @@ RUN apt-get -qq install -y nasm && apt-get clean
 RUN apt-get -qq install -y neko && apt-get clean
 RUN apt-get -qq install -y nickle && apt-get clean
 RUN apt-get -qq install -y nim && apt-get clean
+RUN apt-get -qq install -y nodejs && apt-get clean
 RUN apt-get -qq install -y ocaml && apt-get clean
 RUN apt-get -qq install -y octave && apt-get clean
 RUN apt-get -qq install -y open-cobol && apt-get clean
@@ -80,7 +80,6 @@ RUN apt-get -qq install -y python && apt-get clean
 RUN apt-get -qq install -y r-base && apt-get clean
 RUN apt-get -qq install -y ratfor && apt-get clean
 RUN apt-get -qq install -y regina-rexx && apt-get clean
-RUN apt-get -qq install -y rhino && apt-get clean
 RUN apt-get -qq install -y ruby && apt-get clean
 RUN apt-get -qq install -y scala && apt-get clean
 RUN apt-get -qq install -y scilab && apt-get clean
