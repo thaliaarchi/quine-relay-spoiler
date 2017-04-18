@@ -31,7 +31,7 @@ class CodeGen
     a << [*self::Apt]
     a.transpose.map do |name, src, cmd_make, backup, apt|
       cmd_raw = cmd_make
-      cmd_raw = cmd_raw.gsub("$(SCHEME)", "gosh")
+      cmd_raw = cmd_raw.gsub("$(SCHEME)", "guile")
       cmd_raw = cmd_raw.gsub("$(JAVASCRIPT)", "nodejs")
       cmd_raw = cmd_raw.gsub("$(BF)", "bf")
       cmd_raw = cmd_raw.gsub("$(CC)", "gcc")
@@ -60,7 +60,22 @@ GenPrologue = <<-'END'.lines.map {|l| l.strip }.join
   $D="program QR";
   $G=" contents of"+$F=" the mixing bowl";
   $L="public static";
+  rp=->s,r{
+    v="";
+    [r.inject(s){|s,j|
+      o={};
+      m=n=0;
+      s.size.times{|i|
+        o[f=s[i,2]]||=0;
+        c=o[f]+=1;
+        m<c&&(m=c;n=f)
+      };
+      v=n+v;
+      s.gsub(n,(j%256).chr)
+    },v]
+  };
 END
+# rp: Re-Pair (Naive byte pair encoding)
 
 
 class Python_R_Ratfor_REXX < CodeGen
@@ -128,12 +143,12 @@ class PHP_Piet < CodeGen
           echo"\\x89PNG\\r\\n\\x1a\\n";
           $m="";
           $t="\\xc0\\0\\xff";
-          for($i=-1;$i<128*$z;
+          for($i=-1;++$i<128*$z;
               $m.=$c--?
                 ($w-$c||$i>$z)&&$i/$z<($c<$w?ord($s[(int)($c/3)]):$c--%3+2)?
                   $t[2].$t[$c%3%2].$t[$c%3]:"\\0\\0\\0":"\\0"
           )
-            $c=++$i%$z;
+            $c=$i%$z;
           foreach(array(
             "IHDR".pack("NNCV",$w+2,128,8,2),
             "IDAT".gzcompress($m),
@@ -146,30 +161,16 @@ class PHP_Piet < CodeGen
 end
 
 class Perl < CodeGen
-  #Name = "Perl 5"
   File = "QR.pl"
   Cmd = "perl QR.pl > OUTFILE"
   Apt = "perl"
   def code
-    # BPE: Byte pair encoding
     <<-'END'.lines.map {|l| l.strip }.join
       (
         p="eval";
         %(
           $_="#{
-            s=PREV;
-            v="";
-            127.upto(287){|j|
-              o={};
-              m=n=0;
-              s.size.times{|i|
-                o[f=s[i,2]]||=0;
-                c=o[f]+=1;
-                m<c&&(m=c;n=f)
-              };
-              v=n+v;
-              s=s.gsub(n,(j%256).chr)
-            };
+            s,v=rp[PREV,128..287];
             s="
               $_='#{Q[s,c=/['\\\\]/]}';
               $n=32;
@@ -191,15 +192,6 @@ class Perl < CodeGen
       )
     END
   end
-end
-
-class Perl6 < CodeGen
-  Disabled = true
-  Name = "Perl 6"
-  File = "QR.pl6"
-  Cmd = "perl6 QR.pl6 > OUTFILE"
-  Apt = "rakudo"
-  Code = %q("print"+E[PREV])
 end
 
 class Pascal < CodeGen
@@ -271,14 +263,14 @@ class Nickle < CodeGen
   File = "QR.5c"
   Cmd = "nickle QR.5c > OUTFILE"
   Apt = "nickle"
-  Code = %q("printf#{E[PREV]}")
+  Code = %q("printf#{E[PREV]}\\n")
 end
 
 class Neko < CodeGen
   File = "QR.neko"
   Cmd = "nekoc QR.neko && neko QR.n > OUTFILE"
   Apt = "neko"
-  Code = %q("$print#{E[PREV+N]};")
+  Code = %q("$print#{E[PREV]};")
 end
 
 class NASM < CodeGen
@@ -341,14 +333,6 @@ class Makefile < CodeGen
   Code = %q("all:\n\t@echo '#{d[PREV,?$].gsub(?'){"'\\\\''"}}'")
 end
 
-class M4 < CodeGen
-  Disabled = true
-  File = "QR.m4"
-  Cmd = "m4 QR.m4 > OUTFILE"
-  Apt = "make"
-  Code = %q("changequote(<@,@>)\ndefine(p,<@#{PREV}@>)\np")
-end
-
 class Lua < CodeGen
   File = "QR.lua"
   Cmd = "lua5.3 QR.lua > OUTFILE"
@@ -392,15 +376,6 @@ class LLVMAsm < CodeGen
       )
     END
   end
-end
-
-class LiveScript < CodeGen
-  Disabled = true
-  Name = "LiveScript"
-  File = "QR.ls"
-  Cmd = "lsc QR.ls > OUTFILE"
-  Apt = "livescript"
-  Code = %q("console.log"+Q[E[PREV],?#])
 end
 
 class Julia_LazyK_Lisaac < CodeGen
@@ -608,7 +583,10 @@ class Go_GPortugol_Grass < CodeGen
         }
       )
     END
-    mod, prologue, epilogue = ::File.read(::File.join(__dir__, "grass-boot.dat")).lines
+    mod, prologue, epilogue = ::File.read(::File.join(__dir__, "grass-boot.dat")).lines[3..-1]
+    prologue = "t(#{ prologue })"
+    epilogue = "t(#{ epilogue })"
+    prologue = prologue.gsub(/(\/12131)+/) { "\")+S.Repeat(t(\"/12131\"),#{ $&.size / 6 })+t(\"" }
     mod = mod.to_i
     r.gsub(/@@\w+@@/, {
       "@@PROLOGUE@@" => prologue.chomp,
@@ -689,7 +667,7 @@ class FALSELang < CodeGen
   File = "QR.false"
   Cmd = "ruby vendor/false.rb QR.false > OUTFILE"
   Apt = [nil]
-  Code = %q(?"+PREV.gsub(?"){'"34,"'}+?")
+  Code = %q(?"+PREV.gsub(?"){'"34,"'}.gsub(N){'"10,"'}+?")
 end
 
 class FSharp < CodeGen
@@ -728,7 +706,16 @@ class EC < CodeGen
   Cmd = "ecp -c QR.ec -o QR.sym && ecc -c QR.ec -o QR.c && ecs -console QR.sym QR.imp -o QR.main.ec && ecp -c QR.main.ec -o QR.main.sym && ecc -c QR.main.ec -o QR.main.c && gcc -o QR QR.c QR.main.c -lecereCOM && ./QR > OUTFILE"
   Backup = "QR.c"
   Apt = "ecere-dev"
-  Code = %q("class QR:Application{void Main(){#{f(PREV,15){"Print#$S;"}}}}")
+  def code
+    <<-'END'.lines.map {|l| l.strip }.join
+      %(
+        class QR:Application{
+          void f(String const s,int n){for(Print(s);n;n--)Print("\\\\");}
+          void Main(){#{f(PREV,15){"f(#{V[$S[1..-2],'",',');f("']},0);"}}}
+        }
+      )
+    END
+  end
 end
 
 class Dc < CodeGen
@@ -743,7 +730,7 @@ class Dafny < CodeGen
   File = "QR.dfy"
   Cmd = "dafny QR.dfy && mono QR.exe > OUTFILE"
   Apt = "dafny"
-  Code = %q("method Main(){print#{E[PREV]};}")
+  Code = %q(%(method Main(){print(@"#{d[PREV]}");}))
 end
 
 class D < CodeGen
@@ -751,14 +738,6 @@ class D < CodeGen
   Cmd = "gdc -o QR QR.d && ./QR > OUTFILE"
   Apt = "gdc"
   Code = %q("import std.stdio;void main(){write(`#{PREV}`);}")
-end
-
-class Curry < CodeGen
-  Disabled = true
-  File = "QR.curry"
-  Cmd = "runcurry QR.curry > OUTFILE"
-  Apt = "pakcs"
-  Code = %q("main=putStr"+E[PREV])
 end
 
 class CommonLisp < CodeGen
@@ -786,7 +765,7 @@ end
 class Clojure_Cobol < CodeGen
   File = ["QR.clj", "QR.cob"]
   Cmd = ["clojure QR.clj > OUTFILE", "cobc -O2 -x QR.cob && ./QR > OUTFILE"]
-  Apt = ["clojure1.6", "open-cobol"]
+  Apt = ["clojure", "open-cobol"]
   def code
     <<-'END'.lines.map {|l| l.strip }.join
       %(
@@ -813,7 +792,7 @@ end
 class CDuce_Chef < CodeGen
   File = ["QR.cd", "QR.chef"]
   Cmd = [
-    "cduce QR.cd > OUTFILE",
+    "!cduce QR.cd > OUTFILE",
     "PERL5LIB=vendor/local/lib/perl5 compilechef QR.chef QR.chef.pl && perl QR.chef.pl > OUTFILE"
   ]
   Apt = ["cduce", nil]
@@ -1044,14 +1023,6 @@ class Yorick < CodeGen
   Code = %q(%(write,format="#{y="";f(PREV,35){y<<",\\n"+$S;"%s"}}")+y)
 end
 
-class Yabasic < CodeGen
-  Disabled = true
-  File = "QR.yab"
-  Cmd = "yabasic QR.yab > OUTFILE"
-  Apt = "yabasic"
-  Code = %q(f(PREV,50){"print#$S;:"})
-end
-
 class XSLT < CodeGen
   File = "QR.xslt"
   Cmd = "xsltproc QR.xslt > OUTFILE"
@@ -1100,15 +1071,6 @@ class VisualBasic_Whitespace < CodeGen
   end
 end
 
-class VimScript < CodeGen
-  Disabled = true
-  Name = ["Vimscript"]
-  Apt = "vim"
-  File = "QR.vim"
-  Cmd = "vim -EsS QR.vim > OUTFILE"
-  Code = %q("let s=#{E[PREV]}\nput=s\nprint\nqa!")
-end
-
 class Verilog < CodeGen
   File = "QR.v"
   Cmd = "iverilog -o QR QR.v && ./QR -vcd-none > OUTFILE"
@@ -1155,9 +1117,9 @@ class StandardML_Subleq < CodeGen
   end
 end
 
-class Squirrel3 < CodeGen
+class Squirrel < CodeGen
   File = "QR.nut"
-  Cmd = "squirrel3 QR.nut > OUTFILE"
+  Cmd = "squirrel QR.nut > OUTFILE"
   Apt = "squirrel3"
   Code = %q("print"+E[PREV])
 end
@@ -1191,7 +1153,7 @@ end
 class Scheme < CodeGen
   File = "QR.scm"
   Cmd = "$(SCHEME) QR.scm > OUTFILE"
-  Apt = "gauche"
+  Apt = "guile-2.0"
   Code = %q(%((display "#{e[PREV]}")))
 end
 
@@ -1210,14 +1172,6 @@ class Scala < CodeGen
   end
 end
 
-class Rust < CodeGen
-  Disabled = true
-  File = "QR.rs"
-  Cmd = "rustc QR.rs && ./QR > OUTFILE"
-  Apt = "rustc"
-  Code = %q(%(fn main(){print!("{}",#{E[PREV]});}))
-end
-
 class Ruby < CodeGen
   File = "QR.rb"
   Cmd = "ruby QR.rb > OUTFILE"
@@ -1225,6 +1179,7 @@ class Ruby < CodeGen
   Code = nil
 end
 
-CodeGen::List.reject! {|s| defined?(s::Disabled) }
+load "code-gen-pool.rb" if ENV["ALL"]
+
 GenSteps = CodeGen::List.map {|s| s.gen_step }
 RunSteps = CodeGen::List.reverse.flat_map {|s| s.run_steps }

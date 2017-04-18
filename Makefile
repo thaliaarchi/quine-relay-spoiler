@@ -83,19 +83,19 @@ QR.st: QR.sl
 
 QR.nut: QR.st
 	@echo
-	@echo "#################################"
-	@echo "##  7: Smalltalk -> Squirrel3  ##"
-	@echo "#################################"
+	@echo "################################"
+	@echo "##  7: Smalltalk -> Squirrel  ##"
+	@echo "################################"
 	@echo
 	gst QR.st > QR.nut
 
 QR.sml: QR.nut
 	@echo
-	@echo "###################################"
-	@echo "##  8: Squirrel3 -> Standard ML  ##"
-	@echo "###################################"
+	@echo "##################################"
+	@echo "##  8: Squirrel -> Standard ML  ##"
+	@echo "##################################"
 	@echo
-	squirrel3 QR.nut > QR.sml
+	squirrel QR.nut > QR.sml
 
 QR.sq: QR.sml
 	@echo
@@ -328,7 +328,7 @@ QR.chef: QR.cd
 	@echo "##  36: CDuce -> Chef  ##"
 	@echo "#########################"
 	@echo
-	cduce QR.cd > QR.chef
+	ulimit -s unlimited && cduce QR.cd > QR.chef
 
 QR.clj: QR.chef
 	@echo

@@ -45,6 +45,7 @@ cmds = [*RunSteps, RunStep["Ruby", "QR2.rb"]].each_cons(2).map do |s1, s2|
   src = s2.src
   cmd = cmd.gsub("OUTFILE", src)
 
+  cmd = cmd.gsub(/^!/, "")
   cmd = cmd.gsub(/.{60,}?&&/, "\\0\n     ")
 
   cmd
@@ -77,7 +78,7 @@ the original <%= RunSteps[0].name %> code again.
 
 ### Ubuntu
 
-If you are using Ubuntu 16.04 "Xenial Xerus", you can perform the following steps.
+If you are using Ubuntu 17.04 "Zesty Zapus", you can perform the following steps.
 
 #### 1. Install all interpreters/compilers.
 
@@ -91,6 +92,7 @@ Then, build the bundled interpreters.
 
 #### 2. Run each program on each interpreter/compiler.
 
+    $ ulimit -s unlimited
 % cmds.each do |cmd|
     $ <%= cmd %>
 % end
@@ -193,7 +195,7 @@ See `vendor/README` in detail.
 
 The MIT License (MIT)
 
-Copyright (c) 2013, 2014, 2015, 2016 Yusuke Endoh (@mametter), @hirekoke
+Copyright (c) 2013, 2014, 2015, 2016, 2017 Yusuke Endoh (@mametter), @hirekoke
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

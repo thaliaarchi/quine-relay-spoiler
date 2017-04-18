@@ -1,10 +1,12 @@
 LCI       := lci-0.10.5
-NPIET     := npiet-1.3d
+NPIET     := npiet-1.3e
 CFUNGE    := cfunge-0.9.0
 ACME_CHEF := Acme-Chef-1.01
+SPL	  := spl-1.2.1
 LOCAL     := $(CURDIR)/local
 
 all: $(LOCAL)/bin/lci $(LOCAL)/bin/npiet $(LOCAL)/bin/cfunge $(LOCAL)/bin/compilechef $(LOCAL)/bin/lazyk
+true-all: all $(LOCAL)/bin/spl2c goaheui/main.go golfscript.rb
 
 $(LOCAL)/bin/lci:
 	unzip -q $(LCI).zip
@@ -25,5 +27,15 @@ $(LOCAL)/bin/compilechef:
 $(LOCAL)/bin/lazyk:
 	$(CC) lazyk.c -o $@
 
+$(LOCAL)/bin/spl2c:
+	tar xzf $(SPL).tar.gz
+	(cd $(SPL) && ln -s ../local spl && make install)
+
+goaheui/main.go:
+	git clone https://github.com/aheui/goaheui.git
+
+golfscript.rb:
+	wget http://www.golfscript.com/golfscript/golfscript.rb
+
 clean:
-	rm -rf $(LOCAL)/ $(LCI)/ $(NPIET)/ $(CFUNGE)/ $(ACME_CHEF)
+	rm -rf $(LOCAL)/ $(LCI)/ $(NPIET)/ $(CFUNGE)/ $(ACME_CHEF)/ $(SPL)/
