@@ -1,15 +1,20 @@
 require_relative "code-gen"
 
 apts = RunSteps.flat_map {|s| s.apt }
-other_packages = %w(cmake libpng-dev libgd-dev groff)
+other_packages = %w(libpng-dev libgd-dev groff flex bison curl)
 
-apts = [*apts.flatten.compact.uniq, *other_packages].sort
+apts = [*apts.flatten.compact.uniq, *other_packages].uniq.sort
 
 dockerfile = []
-dockerfile << "FROM ubuntu:17.04"
+dockerfile << "FROM ubuntu:18.04"
+dockerfile << "ENV DEBIAN_FRONTEND noninteractive"
+dockerfile << "RUN rm /etc/dpkg/dpkg.cfg.d/excludes" # maxima requires /usr/share/doc/maxima/...
 dockerfile << "RUN apt-get update && apt-get upgrade -y"
-dockerfile << "RUN apt-get -qq install -y #{ apts.join(" ") } && apt-get clean"
-dockerfile << "ENV PATH /usr/games:$PATH"
+dockerfile << "RUN apt-get -qq install -y apt-utils > /dev/null"
+dockerfile << "RUN apt-get -qq install -y moreutils"
+apts.each_slice(4) do |apt|
+  dockerfile << "RUN chronic apt-get -qq install -y #{ apt.join(" ") } && chronic apt-get clean"
+end
 dockerfile << "ADD . /usr/local/share/quine-relay"
 dockerfile << "WORKDIR /usr/local/share/quine-relay"
 dockerfile << "RUN make -C vendor"

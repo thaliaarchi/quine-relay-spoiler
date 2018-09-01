@@ -1,326 +1,111 @@
-()=printf("%s","Transcript show: 'print(\"fun p n=print(Int.toString n^\\\" \\\");p 0;p 0;p 130;List.tabulate(127,p);String.map(fn c=>(p(3+");
-()=printf("%s","ord c);print\\\"-1 0 \\\";c))(\\\"proc f {n} {string repeat \\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\" $n};puts a::=~[regsub -all {.} \\\\\\\"};0 nruter;)");
-()=printf("%s","\\\\\\\\\\\\\\\"eludomdne dnen[f 1];))\\\\\\\\\\\\\\\"[f 1]eludoM dnE:buS dnE:)n& n& n(etirW.elosnoC.metsyS:txeN:)\\\\\\\\\\\\\\\"[f 3]  \\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]& n&)9(rhC& n& s(etirW.elosnoC.metsyS:txeN:)32*)1 dnA i-7>>)c(csA(-23(rhC=& s:7 oT0=i roF:\\\\\\\\\\\\\\\"[f 3]   \\\\\\\\");
-()=printf("%s","\\\\\\\"[f 3]=s:\\\\\\\\\\\\\\\"[f 3]>teehselyts:lsx/<>etalpmet:lsx/<>\\\\\\\\]\\\\\\\\])\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3]}0 tixe.sysn[f 4])\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 7];dne;)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]DO)a+\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]J\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]+b+)8DOMn+05(R");
-()=printf("%s","PER+c+)8DOM8%%n+05(RPER+c+)46%%n+05(RPER(tnirp;\\\\\\\\]i\\\\\\\\[tSBA=:nTNI ODtBPU OTiROF;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"");
-()=printf("%s","[f 3]\\\\\\\\\\\\\\\"[f 31]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 25];)'')\\\\\\\\\\\\\\\"[f 3]\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 119]}[f 8]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]tiuqn[f 256]\\\\\\\\\\\\\\\"[f 3]\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]@\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]s tnirp}[f 8];\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247],\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]s=s;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 207]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 41]+1\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 2");
-()=printf("%s","3]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]s=s)--c;c;0+\\\\\\\\]i\\\\\\\\[a=c(rof;0 s=s{[f 8])a ni i(rof;)a,\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\");
-()=printf("%s","\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]632 22 69 84 391 9 201 602 651 75 132 9 ");
-()=printf("%s","851 511 602 75 702 342 942 091 152 4 511 201 032 402 942 74 391 75 15 15 132 252 151 951 951 97 84 301 032 402 75 552 ");
-()=printf("%s","73 251 75 15 301 602 721 71 522 191 552 942 132 4 36 951 702 132 132 342 342 342 151 052 132 922 132 521 64 0 141 252 ");
-()=printf("%s","32 71 71 71 061 541\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 247](tilps;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 247],:,4\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 1");
-()=printf("%s","1]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 493]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]=s;);)n++,\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]c%%\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\");
-()=printf("%s","\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247](ftnirps=!)1,j,s(rtsbus;9=n(rof)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247];)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23");
-()=printf("%s","]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]n\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247](f\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 43]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\");
-()=printf("%s","\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 205]tnirp;)s(htgnel=<j++;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\");
-()=printf("%s","\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247];\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503],*54p00+6*44+6**983\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]}[f 8]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503],:,4\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"");
-()=printf("%s","[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 303]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 201];}[f ");
-()=printf("%s","8];\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503],\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503];\\\\\\\\\\\\\\\"[f 3]");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]+4\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503])2%%m/n(fi;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 167]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1");
-()=printf("%s","]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 337]:,4,g00\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]{[f 8])2=*m;652<m;1=m(rof;\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\");
-()=printf("%s","\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503],g00\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]{[f 8])n(f diov enifed\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]tnirp(rof;)s,\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 99]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 661]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 2");
-()=printf("%s","3]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247],/!/(busg;)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 247]}[f 8];0 nruter;)s(stup}[f 8];++p*=++q*);--n;(rof esle;\\\\\\\\]n-0004\\\\\\\\[q=q*)++q;--m;6+");
-()=printf("%s","29%%)5-++p*(=m(rof)9993>n(fi;2=+p;78*29%%)5-\\\\\\\\]1\\\\\\\\[p(+29%%)5-p*(=n{[f 8]);p*;(rof;m,n tni{[f 8])(niam tni;s=q*,\\\\\\");
-()=printf("%s","\\]99999\\\\\\\\[s,)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 503]a3e/****/}[f 8];)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 99]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 405]!}[f 8]}[f 8]amc461 sevreS");
-()=printf("%s","n!!!!n!!!!.hsid gnikaba{[f 8]e4''[f 64]w3''[f 64]ruoPaeo3Efo stnetnoc yfiuqiL\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!avp3M;)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!n!!!!.lwob gnixim eht otni }[f 8]c)tni({[f 8] ");
-()=printf("%s","enieffac tuP\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 5");
-()=printf("%s","03]!!!\\\\\\\\$(etirW.elosnoC.\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]metsyS))\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!(doseq\\\\\\\\[s(");
-()=printf("%s","lazy-cat\\\\\\\\[\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","503]!!!!!!!IDENTIFICATIONb|d35g3vGRAM-ID. QR.amc3APROCEDURE DIVISION.\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!''[f 64]DISPLAY\\\\\\\\](map #(stra/cIE!!!!!!!!aed4k.re");
-()=printf("%s","place %%1alh3wf3gd3pc79\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 351]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 153]!abf4/&\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!)(re-seq #\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!.{[f 8]1,45}");
-()=printf("%s","[f 8]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!a|c");
-()=printf("%s","3If=(n)->Array(n+1).join ''[f 64]!!!!!!!!a}[f 8]g37''[f 64]);console.log(''[f 64]%%s''[f 64],(avd79write-lineakk4bimpo");
-()=printf("%s","rt std.stdio;void maxa3~a;kc3*x60methoaid5*print(@ahr4k\\\\\\\\[class Q\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\");
-()=printf("%s","\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]R:Application{[f 8]void f(String const s,int n){[f 8]for(a<a3ns);n;n--)Printao26f5ab(3B);}[f");
-()=printf("%s"," 8]void Main(){[f 8]ap/4KIO.puts(ai-4C(princ ah/\\\\\\\\[rf4<\\\\\\\\[8Q\\\\\\\\[4tmain(_)->aj.4u2ab14unio:fwriteak/4D3);f(af\\\\\\\\[");
-()=printf("%s","4Dprintfn(ai?4<\\\\\\\\[4<\\\\\\\\[4<\\\\\\\\[4<\\\\\\\\[4<44B\\\\\\\\[6''[f 64]:abn9R\\\\\\\\[4?\\\\\\\\[6*\\\\\\\\[4Ec2\\\\\\\\[lN9\\\\\\\\[4?\\\\\\\\[6+\\\\\\\\[6+");
-()=printf("%s","; : B Aahm:a\\\\\\\\[4?\\\\\\\\[6-\\\\\\\\[6-WRITE(*,*)akl9R\\\\\\\\[4?\\\\\\\\[62\\\\\\\\[62A ; : C B TYPE .aqk3v\\\\\\\\[4?\\\\\\\\[6#\\\\\\\\[6#''[f 64");
-()=printf("%s","]abl3v\\\\\\\\[4?\\\\\\\\[6,\\\\\\\\[9UR ; : Daho9N\\\\\\\\[4?\\\\\\\\[6,\\\\\\\\[9Oogram QRai(37\\\\\\\\[4?\\\\\\\\[6&\\\\\\\\[=q\\\\\\\\[6)\\\\\\\\[6)\\\\\\\\[=q ab");
-()=printf("%s","k3v\\\\\\\\[9F\\\\\\\\[6#\\\\\\\\[4>(&ack3v\\\\\\\\[4?\\\\\\\\[6&\\\\\\\\[6&C aclRw\\\\\\\\[6(\\\\\\\\[6(\\\\\\\\[4C5=9<He\\\\\\\\[6B\\\\\\\\[:m:=OutputTextUser()");
-()=printf("%s",";WriteAll(s,a#/6)31ac;4?\\\\\\\\[6)\\\\\\\\[@Crintnaf/=x63ac;4?\\\\\\\\[6,\\\\\\\\[G@et prinahm@L\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[4?-abm3v\\\\");
-()=printf("%s","\\\\[6*\\\\\\\\[6*\\\\\\\\[=+prinae0R412ac;4?\\\\\\\\[68\\\\\\\\[4Spackage main;import(Favl3v\\\\\\\\[6&\\\\\\\\[6&\\\\\\\\[4Afmtadm3v\\\\\\\\[6%%\\\\\\\\[6");
-()=printf("%s","%%\\\\\\\\[@QSabl3v\\\\\\\\[6*\\\\\\\\[6*\\\\\\\\[4Ea65sabm3v\\\\\\\\[6?\\\\\\\\[6?\\\\\\\\[QGaJEt(s aea3f)string{[f 8]r:akD:e\\\\\\\\[6#\\\\\\\\[6#93v\\\\\\");
-()=printf("%s","\\[6@\\\\\\\\[6@\\\\\\\\[4\\\\\\\\[jYb s{[f 8]if n<48{[f 8]r+=aol3v\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 1]\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[4?vabl3v\\\\\\\\[65\\\\\\\\[65\\\\\\\\[4P}[f 8]else{[f 8]r+=ajbC4n<:\\\\\\\\[<:\\\\\\\\[8;\\\\\\\\[6VW");
-()=printf("%s","wac09t8Y-\\\\\\\\[Y-/6W:4?\\\\\\\\[6Y\\\\\\\\[5y\\\\\\\\[i%%%%2:i%%%%2+1\\\\\\\\],int(n)-48)}[f 8]}[f 8];return r}[f 8];funca.cSjs:=adn9V\\");
-()=printf("%s","\\\\\\[6)\\\\\\\\[6)\\\\\\\\[4D01314afn9V\\\\\\\\[60\\\\\\\\[60\\\\\\\\[9V+S.Repeat(akp9P\\\\\\\\[6)\\\\\\\\[6)\\\\\\\\[9P2131aem3v\\\\\\\\[6*\\\\\\\\[6*\\\\\\\\[:}[");
-()=printf("%s","f 8],6)+aen=Q\\\\\\\\[6Q\\\\\\\\[6Q\\\\\\\\[5q/1:151419>>5261413/4=3626612/2/353251215/Z0Z0<a3l3v\\\\\\\\[64\\\\\\\\[64\\\\\\\\[4O);for i,n:=r");
-()=printf("%s","ange(ar/Fr5ab;Fs\\\\\\\\[6)\\\\\\\\[4D4:/511ad:4?\\\\\\\\[60\\\\\\\\[4Kmain=putStral06Z023ad:4?\\\\\\\\[9w\\\\\\\\[76a?xQR{[f 8]adiF=functiona");
-()=printf("%s","ib9a{[f 8]neko.Lib.print(aq0>L3ab74j\\\\\\\\[8Z/6A884ad:4?\\\\\\\\[8Z\\\\\\\\[7zprocedureaja@2);i:=c:=0;s:=(ao/8M90ach4j\\\\\\\\[8M\\\\\\");
-()=printf("%s","\\[8M195ad:4?\\\\\\\\[P}[f 8]\\\\\\\\[N<.classagc:''[f 64]QRac0Zn0abh9c\\\\\\\\[6E\\\\\\\\[6E494ad36Esuper agn>?/V''[f 64]304adj4j\\\\\\\\[");
-()=printf("%s","7bXW/792ad37bmethod ahhHVaH\\\\\\\\[\\\\\\\\[Lace:(aHO;)V ;\\\\\\\\]ag/>l8abh8Q\\\\\\\\[68\\\\\\\\[6811ac3:<.limit stack 2ao.4l6abi:1\\\\\\\\[");
-()=printf("%s","7c\\\\\\\\[7c401ad27cgetadbA*java/lang/System/out Ljava/io/PrintStream;a/05whWu\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1");
-()=printf("%s","](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]\\\\\\\\[6-\\\\\\\\[6-7ab36-nldc af.4k*Ws\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[;I\\\\\\\\[90\\\\\\\\[8%%44ac;@%%");
-()=printf("%s","\\\\\\\\[@%%\\\\\\\\[>@class QR{[f 8]public static void main(a&b3y\\\\\\\\]v){[f 8]aea3n c\\\\\\\\[\\\\\\\\]=new String\\\\\\\\[99999\\\\\\\\],y=a");
-()=printf("%s","z/5x292add4j\\\\\\\\[5x\\\\\\\\[4m\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[:V\\\\\\\\[8=/BY616adm4?\\\\\\\\[?1\\\\\\\\[?1X<l197ad74j\\\\\\\\[5x\\\\\\\\[5x");
-()=printf("%s","\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[;b\\\\\\\\[8D\\\\\\\\[792711aem4?\\\\\\\\[?8\\\\\\\\[?8)38z=y,s=ag.4m109ad+5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\");
-()=printf("%s","\\[5x\\\\\\\\[5x25acj4j\\\\\\\\[7/W6\\\\\\\\$3813);f(ai\\\\\\\\[4?34,ad.4<7);f(af13H3ab(3v-37,0);f(agr3v#{[f 8]f(1)}[f 8]ahf2\\\\\\\\[!!\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!bvb.b");
-()=printf("%s","-b2b.b+bxa;b+b.bza5a4a2b2a4a9a5a/a5boa/aNaJb/b1b|b-b3aHaNbQbobRb*bscdbRa6aHbna5cbcha/bsbsb2cobqaEa7cob|cocjbyb.b1a-b}[");
-()=printf("%s","f 8]aJaCaGa:a>aGa=aHb7aJa5aVbYa5bva6aKaKb}[f 8]a6a2a?a8a>caccbRcgcda/cwcIb*b*cycIbnb7aGb7cCbpa6bxb-bwa6c|c*bva-bXc+b.b");
-()=printf("%s","Xa5bncobf\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]bxbvb3b|b?aUbxbtbwbxb1a8b-btb,bx");
-()=printf("%s","aGaJbdbeaHdmdodqb-bcb4bub+b|bva:b,btbXaIa:cFa/ckcochdCa/a1a5b1bxb/b+btbvbxdGdIdKdMa5b2a9dBdCdWbRdUcIdXebdXa/a6dZbReba/");
-()=printf("%s","coegejecedcza6eia;bVbXbZcodba-b2aJd:b3bvb{[f 8]btb+b+dGcoa;b:a>a9aFaFb<ekd?aMezbzbFbue,bna>a?aDa=aBb7deaEbpbveiaUaNaVa");
-()=printf("%s","-a>a;a?eca=aNbiaVbfaVaOaYaRa-eca?a?c5b2b3bWb-bza;bzb2d4a5a5aGfda?e,b+aGfsebaBaPb-ajaMdnb{[f 8]b.a-a4d6b-bxfwaGe5f6aHet");
-()=printf("%s","c9ecf{[f 8]fydXfebAb+b5bxeybtdpb2byb8aHb.b4b3b/fLa-cla3a>a3f;aPf=dWfea;btb2b2bxb,d5b8a-b3b:b<a;d|b3f-bwa-fNd5d7eyb3fEg");
-()=printf("%s","tb5dhgpaZd;b-a5a6b:a;cXfib8b/dhbYa-b+bwfhb1a3a@fTfzfVftb,fxbwbucHcda1dCa1f9b3a5fRaBg<dXf<ftgIbygKa@fSfUfWdCfef,b.gKaCg");
-()=printf("%s",";gWfta0b|b,g2b1b3aIfhbwdqa;b{[f 8]aKa3aCaAa3b-eua-d:dig,fNb3b2gKeAaDgNdWgPebfegIbrg8bXbHa3a?aBgMhfh4a?ezb3b.gabvb|b|gK");
-()=printf("%s","aBa>gVg=gXchh5fjgJfRa=a?hehMgQb1bGb1d\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]{[f ");
-()=printf("%s","8]a-d,a5fKfMfLcjbubxbzdfb6bWb3dNa4fRa3a4a4b2a8a8bra8aHiwa8e*c*a@aCa8bxi|ixa9i{[f 8]i}[f 8]i+a-a@aFi/i1i*b{[f 8]c*aAcBi");
-()=printf("%s","0i}[f 8]aOi4ixi6i8i:i}[f 8]bxb5e,gqdLb*iDi<c*aBi9iAixikiPi6eAaAiHi2cBi;i6aAa>jba8aCa:jgiXi=a-i?jijfjhiUdya<a@jdi5joi-j");
-()=printf("%s","rjoaAa=jib-a:eujni,i.juaOaEa9i+j1jpj,jufobug8a-b4b-b/irfSiua9jDita4iNj9iSj}[f 8]i,aEjNi7j3i;c}[f 8]bwj9aCjti;b-j9j|jui");
-()=printf("%s","Ya?jajua;j9iZjiiwjejojMkdj{[f 8]kgi;aEaAb6b7aEb-b*b9bdaBbib*aDa>aSb4aQeLbyaEaCbdb7bybuaEbzbyaTbhblb+b,bhbjgeaRbhb|bdbv");
-()=printf("%s","bvgBbeb,b*btaVbvbja>bkb,b6b}[f 8]fxkUbmb6bwfia<bhaQaTb7b-aFaCb,bwfxe<b6aFaXaSbmb{[f 8]buaAb,aPbjbVbdbzaEbmaFaAb*bubuaT");
-()=printf("%s","a=bkaDaNbxaFbjbjb3jHjFl;a4bxbcb6kIaXb2bwb-aZaYblbhbkbhb4aPbiaBb4aFaEaXb*bhl0a=bzl4kIbjbtbab|aDfxbuf6bcb8geaSbzbcbja@kQ");
-()=printf("%s","b1b{[f 8]b7kCb*kQb+bua=blaNbdbmbdk=bab*k=bmkLbia>k1blg@aGlblxb0k6b2bjb4bfbdbkb}[f 8]aRbdkAm.\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]m0m,biaPk1a@b*gAb3lxb7aQaEbaaUb1b/bdb1b}[f 8]bzb5aNb3a>b}[f 8]a?b8a");
-()=printf("%s","NaYbeb+fVaGa@aDbyaQb9lvaSmVmXbWaSk9a@bya<b1aQb5blbbaPaSb+aXaRb7b7bdhCk1nibfn+d,aFbab.aFb1aTbyaPb0lsbabub4b0b-b}[f 8]bm");
-()=printf("%s","b-b1a>b6b|bfb-a@bzblgabxaNbkaVb/gdb7b{[f 8]gBbmbwbabgaTaRc8b0bgm|bfaRaEbwbkbgaPb/a@n5bdl=jGisiun8aUb8aRn;aQn=baa>aFb3b");
-()=printf("%s","botikb5aVbkb0bhbvaYaSmXngaEbvaAaZo|b3bifxaCbwb5k6b*b}[f 8]lRaEo6bkaRbeaFb,b8btaZaTb}[f 8]a<bla>bcb+bbaYbwbmfxb-aEb7b}[");
-()=printf("%s","f 8]ijnDb.aNkxaYkHaViab|baaXdhaRb0b7kGp/e<m1kMbtaXbabla@pxaRb,bvb9fxbkb|aRaSaFo/bcm;aWbcaYb5bkbvaEa=aCaQbab{[f 8]bkpGh");
-()=printf("%s","CbyaYaTb9pGbbb8p9oIbtb1aSbvdKb/bwbfa>aAbubgbtaEb}[f 8]beb0kAp9b,blbdaPlXbbbeaBb|lGaSbwaZb4a=b,bda?mWb-k9b5bebxk=aXb1aD");
-()=printf("%s","meaXbvaCb0aYaPbtbgndbxbgaBkwbfb3bcaAbcmVaUb,aYaQpkpmpoaGbuaRbba?o*l=msb6plb+b}[f 8]aXb0oIbdb/ogfxa?a\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3](\\\\\\\\\\\\\\\"[f 3]& fLbV &\\\\\\\\\\\\\\\"[f 3],)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3]EbeoBaDb7b,aXpxbcrsbt\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]b8b-bBnEb.b6aZb,g|aFaBb.b7aZnLaUbabjlvbebkb/b|nAaZoPb7d6fxa>bibxaEa");
-()=printf("%s","UaDb/aObjblb|l/aDbwolb+b0a?aZrmg|qDbeaCpLbgbyhkb5b7a=bdaCa=n-bybbbjr7q0mYeBbfpKa<a<lQaTb{[f 8]bjpIbabab3b}[f 8]bglzkva");
-()=printf("%s","Na?bza<b+beaVaAaXb3lFb1ouspaSb8bdb+bib1aPnIaSnXaTb4aXbyb2a>nHaYb*kwaObbaFa@bmb|bea>hCbmbtb7aUaTbudpb|aBaXbcb|b9mSb6b6b");
-()=printf("%s","unObzbmaNbbbbb2tdaBa@p<aClsaFaNbzb1oMsTaVb.hFb|aYa<bvbab}[f 8]l2k1b2bvrho,a4bda>bhlib3bfb/aZb3bmbbbka>bBbgbka=b8bvaBaQ");
-()=printf("%s","s8b4fxb8bcb7aAqIbub{[f 8]b|bgaYb3oPb.bwtYaYa?bxsgb4aNp7pBbcbzfab}[f 8]b0a@b4b{[f 8]e}[f 8]b1s*aAfxs4b1a=bcaCupmgb/b8b*");
-()=printf("%s","aAbabcb5a=bgb0bcbfbabbnXaSbca<b}[f 8]k8bcaNbcbkaPb,jXbbbdaAb8g|aWbuaDaYb4s,rMaOmjbee<b|aPaXaPbmaQbhoqtNaPblrebgbzdpfxa");
-()=printf("%s","Bblbzb.aVaBb9aUb0aEbxa=b1aRb4b.b.aObvbdbjbhb+aNa>blb4q0beb8aSaXaBbfbgb{[f 8]a@k+aBsOubb7b2bcaXb,aTaUb-uFbeb{[f 8]bebYb");
-()=printf("%s","en0aNaTb2b*vxk{[f 8]aQb\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]kk{[f 8]bfaBb/bzfx");
-()=printf("%s","baaEouo7qQa<b7t>bgb*aNbgbuaSb3k}[f 8]aVtEjEa4b7blpYb7tevSbdqwaSsZuipRaCbkmgbid2aCaTaSaQb@b6bfaCaObzaPbwwwaFr9b7w-bib{[");
-()=printf("%s","f 8]bcaBs@sKwEbca?nFbbt0b.q6bvkWaGb1bexob,fiaNb,b4aYbakUe-a?blb}[f 8]b|a?biaUaUa>b7s=s?q9rowIbkb+b2w<b*b4bco8b>u:b{[f ");
-()=printf("%s","8]b9a=biblpRaAb.b}[f 8]pYaSppb2b6blbmaXblwMwOsKlspJeBq,aVw,bybmb.buo>xJaGb3a@b8mSbvb,aNaWb{[f 8]a?aSa@aAaVaRaWb|aTbvlI");
-()=printf("%s","bzbubcybwRaEb3bwaFa=btlvb3aDbfhjb7n;aSb2sgb/n-b|b*a>beb6oFoqaAblpdb3aVxHaSolaXb6b5b9tibkbabfbfbiw-lwb/bcw3jImup+bdyWbl");
-()=printf("%s","yFyHyJoByMnRaVaFyWx.aAbmk9aEblaXb4aEbbb*a<aNbmaWrsaUaWaAwwaUblbeu/b1b2ymbkaZbyaBb-c8v}[f 8]aBb1bfbjmnaOz9bzaZbwbbb1pdb");
-()=printf("%s","|aNaNbyb3lQrmaXv}[f 8]aPzKbjzMnnzQaFb+bzb0aOaTbFaPq=aTb1c-37,0);f(agr3v#{[f 8]f(1)}[f 8]ahf2\\\\\\\\[!!\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 259]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]");
-()=printf("%s","s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 245]!!!!!!!agAaDlRa@l3aCnaaAg6lUb0b+bmbcbbg2sjblbivAbhbwaQaWbxb8pgkuaSb");
-()=printf("%s",".bmaPbfwLb-b8aFaRl3aXwObelrvrvod7aXaAb{[f 8]aQqLuFbfbbp*a?bvb4aZb0tYubb,b-bvbtaQaDbdsmmDtilvaXy=c|b+b8a>btbtb/aU{[f 8]");
-()=printf("%s","MmCb3b+aSbeaTaCaBaVbtaYy5uoa?bcb9b7bmbazbiusO{[f 8]caVtcbab4yFt}[f 8]g2mEb4d6b8aBb*ltaVb7aPaUogb0bkb-fxzEbzbwc|aQb|bka");
-()=printf("%s","Cogunb3qqbiaCb9baaTzsaDu:b5pl{[f 8]wl?bzbk|0hTbufxaAaObaaZaWb.h=aRb|mntdb4g7p>pKaSaDbclyswb}[f 8]w<aWn2b1aNyloNb3fxaSx");
-()=printf("%s","Fb|xNa@aSaVyIaTaVwvaRb.yt}[f 8]C|EoqaSaEaWxNtk|DnnyleMz0aQoCpOtkb/aEaStfb8z7uybkj+vXv:aA}[f 8];aWwHuoa@aTaWwvt8vraUm>a");
-()=printf("%s","NblaV}[f 8]LoceTaRbcbhb3pYl9b6ymbvk8aFbcnOb4b,bkaEaZbvfxbxl-b,uaaBrNaBt3}[f 8]S|2a4k;aFbkwCaGaDdLb,bi{[f 8]W|zb{[f 8]k");
-()=printf("%s","6l*bkbbbmb+s4aPaNmge<ruaRb/bgr;a<lwbi{[f 8]ZaTbkb3x0lwaAlHbv*+bllmaGdub}[f 8]vevDp7aB}[f 8]s\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]p/p1b7bz}[f 8]bb3mnm;yzaRb2v*|0uMbjbimfaGlTbibabda<aYbbaZrsbdrwb.bg");
-()=printf("%s","bxb3bl*=+Nb3aUbzaFbbbcyo+No@oNl7bcw*aZb{[f 8]p|p6q1bvaRaNm{[f 8]b|tcyy{[f 8]Z|byPuTzhb*k}[f 8]g6a@}[f 8]tb.bbbaaPaCbh+");
-()=printf("%s",".bfb*bwbwwYmUtlb3pUb0b4umnbuFl?eVaCaFb*b8l*vnb0b2zoaWq4l}[f 8]b+mdhY+U+WaOaXaEaPa?qPaEy2tbaQfxb{[f 8]a=*GnLbhaDp>bjt0b");
-()=printf("%s","*a=bfbuyxmqbmkZbwb7bbbg{[f 8]7mcaDv{[f 8]aA,|btb4mAaDb,pDnFbcblbAb9b}[f 8]rMb8sKb3srbda=mh}[f 8]lb7btb-b{[f 8]-4tma>oq");
-()=printf("%s","a@bdz,wwaWa@kPl7b*l6baaBbcaRaYb2b5tVusaRhl-BbmwiaPaWa>aUbib2z/aCk4*yj>-TbkusaSu:aU-{[f 8]b7a@b3.qpmb{[f 8]*XnIb,aFpibl");
-()=printf("%s","-taObffEaD{[f 8]Pbmn}[f 8]aAb3aPxjq;{[f 8]JaOa=zkaSaWk6kHbtaWkLkN,GwZmwb-nDb0w7aQb6-tnZfxbba=uJ,}[f 8]aObiaTbzqobtqpb+");
-()=printf("%s","by{[f 8]*aP{[f 8]ubm|/aBbk+,b{[f 8]ztk=aVb2b+b-tlaPb5nH*Gywb.bebtk|t9bwbdb.bx|GaFbmoPbkbxblpNb1aWv}[f 8]b4b1s>|WmyaO}[");
-()=printf("%s","f 8]gp7ufwoaAn;nqbwaCaZaNp+/qblb5aTa?baaYb{[f 8].|jBaUfxbml*q|*<a\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\");
-()=printf("%s","\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]GaWzAuz.Jt{[f 8].nwR}[f 8]sb,pikMaFaQbl,ZaTbtnD|9/yaYaE}[f 8]=/MrX}[f 8]oaGu@bu/xq?bt|cbdfxaNa");
-()=printf("%s","O/paOh<bkaFb/aNb||{[f 8]aWx:b{[f 8]+OfxaGnUl4b{[f 8]/pylb*b0aF.W0@0Au.aNaUaVb+04.ubmbkb2b8aOrOb00N|qppn4aNlFb,zEbc0Kli");
-()=printf("%s","+yb-aN08.5b?eBb/{[f 8]Wa@b/fxb5bi{[f 8]+fx1ys7b,b5bus<mnby-Ebcbtbfb.,,aVa@aX*GbhaTgnaF{[f 8]*aQbea=aUsgaFb8j>b+kTaCaPb");
-()=printf("%s","9tc/>|jb8nHywaZb1aUkZz@btbcbx-obbb0nRaU,Q/>b0bmbj/VcXxls2{[f 8]SaYbuoAgnaXa?ogb{[f 8]0Zb4*Wblr{[f 8]qGb1bzb4qAaZb6wEb}");
-()=printf("%s","[f 8]b1a?bhwZw.gbnBbwb9aAmXaOvF+x.;bwaBbwbibeojoLaGb8yJaV,>b*p|aTbiaZp,aNlbaVb|,cb,aU*Wbv,ebbb7xZ{[f 8]*l,b{[f 8]*x{[f");
-()=printf("%s"," 8]7n..ZrppZ}[f 8]-bv}[f 8]5xxtjhUbvb5aF*r-4b/b00{[f 8]btb*z{[f 8]nIb|+Dz7bwopb6by.Z,{[f 8]{[f 8]SxFwvaUund;p+xGd3bib8");
-()=printf("%s","bmm6b}[f 8]aWa?rUb7aOaCa<*Gs*aE*K/P,rb9bkbfb43cbg{[f 8]-,1-.bil,|FaTltbeq<,3tmbk|hr9110b.,lqb6aTaOl4aRs2aCbtblbyaCbvy8");
-()=printf("%s","{[f 8]gcYwwk0fab7aFa?a<b|mgrzbdmV|LrShGaY\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]");
-()=printf("%s","srqMb3b6lC}[f 8]5mob+pJ+gbiy/a=bjpRr+bcukbiubmwmop|aPa>bzrQbgbdb24qzO04pr*Qa<1+aBaOb}[f 8]4J5fwZ2TwZb7mhaEa@q}[f 8]byv");
-()=printf("%s","AaRaUb/n/b.mq*WnZbbb+b4b5vVbi-9oF|IaUa<m@z7b2mUbhbx/jbt1+uobxk1q2fxaUu.qWbh4-tbb|b0r}[f 8]{[f 8].+pbxlhaD,Q}[f 8]v*G4q");
-()=printf("%s","aEb*bftS5{[f 8]b0og*9uAbfa?g7a>5Ubgn>u=b.}[f 8]cb8bbbv5faDaTm>aVb*beb.b3zx.Qbfbwbl1sul2Pb/ltnio<6t6vs?+7aBg6r4b0y4qVb.");
-()=printf("%s",".Vm;/tgdph+<bdaDq@{[f 8]SkPoAeB6Dbv{[f 8]X,JbyaD,JaXbbt3*LaF}[f 8]kuip=d:m7bm3t*9u=fAyb2p14b*lTv<bvcNnTnVaP}[f 8]sb3bg");
-()=printf("%s","bbvWb5a<aEs:b0vld32hb*ywaTbbaUt95}[f 8]+U.;z0aBb,3.b/*s{[f 8]6.da@aWu>6Mb2aQaYaOnAwwaXs?nib{[f 8]eAu8uvbuaZt0a<s0b4vjb");
-()=printf("%s","1vDnX*GsObcqo{[f 8]ya?bya@b+x{[f 8]5+bhaSd2{[f 8]w{[f 8]wbu.Uq,nNnH/Ld3oW-tbXkQoKmYaO0T|hbju9bmb8sgmtfxbt5HxAlz1N|m|ob");
-()=printf("%s","m,g*=|<bubmb*|-bcb.k8fx+kb0fK-Ny5lIaO4}[f 8].Ra=aAbwbta=52b.eCbj1Ewjbkb5/fv631bt1T8,bhqdbl+q-<iab.aCaN17/g/rbyb4tVaN6\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]upGaAlF2gbw8Iq=aS{[f 8]Sb4c|aR+vb4bjp,l*bj");
-()=printf("%s","zezgo@bldt0HjXblaBk}[f 8]o@9wbgwRfxaPrA1suYb|4Gff3}[f 8]aQaPo1bkb?o7v5aQbbmPzatFo+w4nAb|b+}[f 8]9aGy|z78OpRb{[f 8]b51O");
-()=printf("%s","eCa>bjaTaQb/b6nZ5Abeb3b9pxfx}[f 8]5bvqJttrGb8bga>3@uAbb}[f 8]Cbcbwb+mAe*aT:isMy?{[f 8]PbwmZvLvNl3cNbboj+|6q-|b0.49=5p|");
-()=printf("%s","064tSaWbz9=u=u9b2bi{[f 8]duL{[f 8]Ybc8:uH+VlP6P/jbdn;b0bza=-9m{[f 8]m}[f 8]m+6q}[f 8]1geaVb{[f 8]aEbuw,bfbzb9blaWrpb64");
-()=printf("%s","9bz,/b,b+bvb8lLaXl8yraR/RaQtqaR0mt9lSaUs8n/}[f 8]LaS}[f 8]62-sK;-bj;/s3bz;:+UkJngvGqstp0Ib4bzaRbwmb7n7:aObW5mbu1+*Gb6b");
-()=printf("%s","-uZ2Pb4rQb-8|pJ:Jbgb|aEvaaXaTb/b}[f 8]s17E}[f 8]Nplbanib+-?bdtimnaCb4-1<raNj>+Afxu=*W|ftmb*bk:3tZhlb@shbu;Z<v/PaAncuo<");
-()=printf("%s",":qlnHb0biq|bw+Kbykww-a=b}[f 8]in<Nsp7x7g|k7>|tbebdt2g1aFbxbx/p/z|maX*JaN/us1b}[f 8]*gb4aW6b*,16.v2o{[f 8]b2ov?aZwZk>aB");
-()=printf("%s",".JpNa=ur.4b2r;-jaN=-b9b4x+982z5@a@b5b09w{[f 8].t3b2aF9wlM-6b{[f 8]p@b0aRscvXySaVb91+\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\");
-()=printf("%s","\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]bd0>*DaT=6qd4ywRbjbb*GreaTo05Uhyr;b,oXb-b6aU1+vjaF8?oObtaNb}[f 8]xt2pwQa?b}");
-()=printf("%s","[f 8]scaRt{[f 8]b,b|r}[f 8]rS;tvwqWba2TblqH=Gb,c8rNrwgA6c98z*1nfK*gwjaYtWbfaNaDx:><mw-6bkpRa=0ha==BdHbubjpU+t0-{[f 8]k");
-()=printf("%s","oG}[f 8];t21{[f 8]7+3gq5z2b3a?{[f 8]0>ekLbzm7=>rubhbz09zM}[f 8]CaSa=aW>Bp*b1ovpGb/mw7?b-iKb1bybka@btbx}[f 8]@yhbvb0tpn");
-()=printf("%s","7m{[f 8]lqaXbfxOb7b88JnmaRaTbw1c-37,0);f(agr3v#{[f 8]f(1)}[f 8]ahf2\\\\\\\\[!!\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\");
-()=printf("%s","\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!aPbyo7b,bc9Vo50oaOa>>eo51G<zaQbjiK;O12xm4Qt+oa");
-()=printf("%s","19b1b1qGblzhkwbl{[f 8]l9Zdz:taGrCvH}[f 8]uxH.TbxbunFaP?baUb2pAaR9XvPb5/GzGb3;A@sa?4ubkbdaQy6t+unpBaZv1aRbxbjrF98rztOba");
-()=printf("%s","v<v>aV98=o3LrP}[f 8]rbtbbaOsWb}[f 8]@<@Lt-<q->b7ze5+bxhAwTgc.}[f 8]b/>gaXbmb4}[f 8]baVb0b*xryZbiuXaRbj58aXb-a=xpnQ\\\\\\\\");
-()=printf("%s","\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]nSb-bacRaGx;z2a>aZb|hK=+r+b7rXl33urKA*aU;Oppa");
-()=printf("%s","D0Hz9bymov,aOqzrUmhbyqDaOb6mgd|blaO0Noia<btzVvstQmPw-ywaA+<a>4Qb,m@9w41aG*Gxe2Ubjb9svyyb05@@xjAaEb6@S99uZ8JjgaFbho9aYg");
-()=printf("%s","eb+17tC<0-?rJfK?>fNb8b1mwfxrSaDb-a>pb<Y8f=;{[f 8]=0Nnil/<l+xs:1{[f 8]aO4-5HaNwQAK@9;saF4=aXptkf+IaY5rt}[f 8]*x3bAqyl/c");
-()=printf("%s","baa@:81*aVzV2:b*b{[f 8]aRq;a?rC{[f 8]Bb.r5b0:J7Vbi4G5Af4{[f 8]@tQApb2fxvS8Kba6inUlMp,y84=be3UbjzI7,nm?+pwaXoIaRtIbgbfa");
-()=printf("%s","TbYoAtfCnb|nvp//cvfbxb96q?7:}[f 8]qdpKvXCDw7smlj+x*G9=uZblpjuQuo2O;p;*;vuA2Ny/5ubclu4z04aZbzzEt3b8vfm;5uudaGDfaQ02y/0D");
-()=printf("%s","bzm,g6fxbelDsjr;xt5}[f 8]ruBYa>}[f 8]Mb8pTr;oMbvbz8}[f 8]b1ox|/=?5ub{[f 8]sw28b8lAAptXn7*;6bb/4Gberzb8bfbhby?uqqoybx.J");
-()=printf("%s","}[f 8]Cq}[f 8]w.b5lN0ZaYvLaT=ds;btaFbgCbb5.58Ld4ba{[f 8]w>vbzuZvfb5bcoYC/byb{[f 8]f-aPb}[f 8]3/qraVaDbi=FoqbuqYplpn7qb");
-()=printf("%s","gb4bej>aCqEb/575:E:tm-obtaDqJ2saTbcE,opd7bg7@uE{[f 8]Wbj*Gbu1E<\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$");
-()=printf("%s","n[f 1];))\\\\\\\\\\\\\\\"[f 1]>aXEFaNEkEBfBaCb-aBbu+0fnb/6MwoaX|k82b/ro@ZtOvlbb,Pbe@bl5bk{[f 8]P=4:ia?bdb*-gaDmqbwoAoXbt;TCb/:");
-()=printf("%s","?xv>dvpAbzaQ-6beltk{[f 8]z3aFbt*9/C@e*D+M*Dngb6btruFJbt?J}[f 8]Lv>|04RwRbhbabt{[f 8]B,5wfyw|lbt2CaCaWkUwN>laG*>b*lRu@-");
-()=printf("%s","9aS5g0*b{[f 8],ebgwj?:p+l8qm|m.Ur;0/@j2**gxG.f6Q6cbfDBblmwb10Zlbb>aZ-Z.Qbabyb}[f 8]0Xm3<ktOaSuoA|j54W1Tl-29qmbt*GaVaEu");
-()=printf("%s","nbkaWaP2:wopQG*rCllg2E,qjbfrNa<>za?bjaNmTAK1{[f 8]?A>>a<<5aBaRlkljaWb2bla?mD*P?@|b58F*ojaBaWEEbdbag7bla=b{[f 8]=h/0rNo");
-()=printf("%s","{[f 8]2-aA4SaU.6tJ7v9h}[f 8]67+57bab9{[f 8]x}[f 8].|/{[f 8]z|<wGaXv=bi-.y2aTGQGSfx4AnX/gbfaO/opYbwa<dz>NtVa<;DHdniBE2C");
-()=printf("%s","eZbjIgrxba{[f 8]-b1tr>p-*;}[f 8]b7yZ1,|Ds7ylaPoW1x4W@vaZ|D.}[f 8]biaEDi0TlhtJ5@aBa?vAblyjy2b1aOpgb5aRxx,+I@stbabx,+*G-");
-()=printf("%s","ruzb1lLbfI+tVvfC/b{[f 8]tpaDsca=aShjbhsIbhu4aG@?*kburTaTFla@k1b.b5;26{[f 8]bcysb3k1bz-rb}[f 8]mmbe}[f 8]Vbzq,fAJt2:J-J");
-()=printf("%s","vaX<IbcJ}[f 8]-QbmvJ7,tt\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]J1CWJu{[f 8]5s1nz");
-()=printf("%s","bm9izhJ7zQbib4bm;N35sMo5p.c|aSb1J@nzI=J=9YzhaCbf5upQ5ub|btbh|D9OtcJ3aSa?Jra<Jrb.bcaOfxKmaC7,J-b/bkfav@r;oA;vaXaC6Pq.e>");
-()=printf("%s","aCbew{[f 8]-Txab6v=5}[f 8]7>bwbcy*6jr7I4v=inaPaODLq?D+44b-vpI;GM9Sl=;oK6K8b7q?n|mLbz|hxosPb5qj,PbcK<sJK?9-b1ljbxr>lJ2P");
-()=printf("%s","b*|pb.mNaGAHLlhdr{[f 8]bf=9b0ga*0lF3u{[f 8]@K7e<2DfxtCCHtc@sB92t{[f 8].aEaFaOaZbg8J..aYaAn>baoP5ub+*J4VaFb2Gufxb}[f 8]");
-()=printf("%s","b/a=5H+xD+b5sJHy}[f 8]gbcH1b0bjaVb,wn|mJWdJaQaBb2b9+Gb{[f 8]b+aYaUlbnEvjDibwJ|aY*2C<|dFv.DaOw0b26zq,yo8,tYfx?1s>+<k0Ly");
-()=printf("%s","-Eb0+BmVv3;M8K-*vd;Oz;Abb,}[f 8]eoCb*vf3Bx/:WbLKHtFbv2drNEl5ruUxO<6a>2poBmX-{[f 8]88m>E}[f 8]q?2.b,a<aZ?GbyaUbhFibu}[f");
-()=printf("%s"," 8]?,XaGhUADDv+ba@C1dzaYaNb9qv4DuQn?Md}[f 8]6EUl+@-/OeE}[f 8]gaTb|}[f 8]5|Grshj?@dKdIJOnit0s3bkFv*Wbmb}[f 8]n;q?|wylnA");
-()=printf("%s",">xoaf-1wmEb+aVbjbd16b+aAyvaOaAbvb/tC:,t8pp7naTaEByqVb*NGb/.caDwjvtA7a?qMbl+oa?CeOfm/2ho@r4b\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1");
-()=printf("%s","]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]/b/5Mb/5b0Hba0Ti=aV8UNHNJ8aNMaWNO@B,Gyrb7aW.cObbz,GaN}[f 8]@aAaU}[f ");
-()=printf("%s","8]@*Gbe}[f 8]M;uaWaVLD6gJL*grpb/aCb|bxmE}[f 8]=aWEn/UaG/Wm+{[f 8]i8w;0?}[f 8]tIym0OstaTAgr7b5rvz2b0a>tl*kl9mDbya>F*?7s");
-()=printf("%s","VE,*dfkbi@/b+yUp:b-2o5-aSuabm9=aZbbyQfEl,b3Jcb2+bptzO?J;Z0XaY|LhU{[f 8]ebzb{[f 8]wN?+fibla<b3oaa@>q1BeT1m0Qz406/pbfaZ,");
-()=printf("%s","YbtaBbyJ*ngxh/-aBFB8Jb|sksKrv90+7Cn5lAvO0t9{[f 8]G-?l*.=|6Cbb7+oqsvMO6tXpCNZ{[f 8]cb*oq2z@/Obfxk:umAGHR*G{[f 8]7bczvtp");
-()=printf("%s","rJ-.aChUQ.bv6b>g?:}[f 8]F|E-H{[f 8]7ODlHaVtmaUpmbzbt?>bmbfPq-.tVtXO4o0k+/{[f 8]+obl5uGS1Y|G1IQPxQaSHRk?k1LFD6}[f 8]q..");
-()=printf("%s","b,7rilsE}[f 8]Ab|E}[f 8]3b.uu:pP}[f 8]qaV5ux{[f 8]N:Rm-D?/.uz03?blLAaPaV7:zVyhs4rTbiP=aQ7On-aZb*b-?Iymw7b144bxbbaSFymM");
-()=printf("%s","fx-*yL.Wb9bya?b68|b3uZl3*8@ekFb/0moS:T0QBRoglSs?1AApa@AZbjClxm/Nn.b*v*O{[f 8]y2aEaBPVNhsT*G06QhaFaYb/<XE=o=oY@{[f 8]aY");
-()=printf("%s","b.L7b1o=I4a?nkk{[f 8]aCkCuzaY-g2CtRQ3vPb{[f 8]BupDaYnFFNbu\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1");
-()=printf("%s","];))\\\\\\\\\\\\\\\"[f 1]kPb,{[f 8]ybtkwDqhpm7}[f 8]SocwI2Jb3+oO6}[f 8]R{[f 8]XpYAkwZtC8>aG7Mp=LBsckzb6K>@9b42CwcAvIr|Ob.|Q*gt");
-()=printf("%s","TAk3>a@bg|/|bL;Gia<q1mW3?by\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3](\\\\\\\\\\\\\\\"[f 3]& fLbV &\\\\\\\\\\\\\\\"[f 3],)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3]<N");
-()=printf("%s","c|A}[f 8]}[f 8]z|suVbx0P/*aYaWoje>JzxuNGeEmX5LaCsj<Nw-qidKaEAkb,qpqrsxLQKoaGz;NGw9M/l@f4z;fBqzaOol:nl7dMkX:na>4q*Gl6bj");
-()=printf("%s","xlqDn4{[f 8]9aWC1y02R.}[f 8]p,.Jr{[f 8]yun5s?b5;8sWr7fGv;Cllhm6aF1mb/.6aUaAmE@*s{[f 8]aR@1b11GqM0Vs7p05@{[f 8]etJu.aFv");
-()=printf("%s","qKv7,{[f 8]Q{[f 8]@betbb}[f 8]/Z*>v4qhK0bwrkx6+yeLOubu8Ob-2t7=aWqusP2<fxya5TUEqLaBJx4.402hfhI<p*bjyFn;/b4;quu:KD.J3LuJ");
-()=printf("%s","stg2mR7?{[f 8]zbjb{[f 8]32a=aDFY6MnED;?Ig|6bsWrobz;DNc7=aYkFt;{[f 8]-aQ*PAZaB4z6b0D;2HUE6{[f 8]7b,*Gbib//L??{[f 8]/:Ka");
-()=printf("%s","Nb64spYgnaD|G17S;{[f 8]7a?4dq?yJ,R4dO|aNubb+9-b-Ih4dK@W+J*;v/4,+{[f 8]I@oaYaVMl<FK6/I7=tz7=A4w+hUPdod.6uLqn/oK?yZqnb64");
-()=printf("%s","WOuK7SsfN6c9E1GaPpb2XOAbkr.yZ:,JxaNp.>ATTpUGe@eqVp*R8b|rfs1c.SB0ab1SCP28/,q6nK2d?krrb}[f 8]8af\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]ulp{[f 8].}[f 8]15ub-1JpSs2mdv}[f 8]Jpb2+SON3DbtCl57tHb.Ovb-U9*P7");
-()=printf("%s","g<abe5@aYsJrObx,R0.4Rw6*GDEm:8-uSb2b-8b+xb2C,.}[f 8]bw0GWOU8/SrFLOI0zVK}[f 8]0I:/7>qS04HpvArCb1aX:Jbdb6bcmJ,D0>yIb{[f ");
-()=printf("%s","8]uU94d,4zaFbua?n/?YmDb9{[f 8]-xNaFAAxrxj-Aru6lPK8F=Z:YPLRQ6K1Iba.gnZwvlfp+aZbib+3V,2b||O>BaN99u*@UHOC3r1b6oaAfO|DB9Kl");
-()=printf("%s","l6Lw+YP?Ix:aYv4,1ga5g}[f 8]C.|bcaDn@fNbhZhb,8OaAb4v?Zob.ruD:y|qw1e*,Um0Hb-}[f 8]F*Jz:s7a=b*5Qa?aVd}[f 8]0|Zx6ndvubwsby");
-()=printf("%s","aX6ubb?Op+qjy2lPKUb8Kr|Fb{[f 8]b@aFv8}[f 8]e-edzD:wh@HPKn6qly2a>aWbkbyaOhpmcnN+yZpZ|bzAB8:QeaXtf<l/jb{[f 8]biyvku@BlC4");
-()=printf("%s","Qkx9jaAuRbkaOb|,OH.aO3|b}[f 8]2Jbv=?M/nSobgha3uaEpRobG?b,w|uLbhCxaGb.*dlGbwaO,Ob/3D22a+a3{[f 8]x;Ysbiaga3-**obbyx*bhb}");
-()=printf("%s","[f 8]v1aOb4QNhpaRG45gblX9K71ybfblaEoX2DkOj+aQr;aWx;FW2UI==.pm|QaBqp-.aEaO{[f 8]5+taO5xILbwtfAj*;aQ8AbwDGX@+zy-q,aXb9Y}");
-()=printf("%s","[f 8]|Ww-;cMYbuAk-RyWPXe,yPaEXSpx}[f 8]togDE0TnEv\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 1]ojgbuk5wjL>=4k5*7vtTCsF/pIhby{[f 8]t<Xl43v2bF;S}[f 8]@eSPbva@baaQ|{[f 8]84v1tXQ}[f 8]yANf7Kb3rNbmaSRy}[f 8]Ga>");
-()=printf("%s","aV3?:8aWkIs4NcvAulrNaZn@s,06z66n51A:LRX1|D5pvBbyr4-?4.6saF670Xb.+70Is-LARtaOh=va4b}[f 8]VxF58z0ytJfkP@*LKfkusz7bumYnNV");
-()=printf("%s","rnPtV4R<0*Gb{[f 8]yUmWX@ygbik7I;qlJjb6aQoZbuE,1AaPwjI+aF|R2hu0bgz,J|wo@Lz+mRwoN<wNwPy,bgaUuyWmu5-/nWRDqI|0bjaU+,,AylyL");
-()=printf("%s","RD|>s2wn6caB/gI|*kN7bdb4b}[f 8]r5b7p.*QUOaDDBys1fPypE0VA=qlyERy5Ay/l3liMgE+fa9|pwxl?Db*zvv;v=Z-EIb*ou-?6I?@xHv7c|}[f 8");
-()=printf("%s","]6b6pib*qtvCvH<daV{[f 8]2+*<daUaXntwZBPaNb4sup9NIuvb,b}[f 8]}[f 8]A+xwT9|A:Eeb8td+17TSTVQ7C=a?*a>TvwbwduAoRrou8aZaA=Fp");
-()=printf("%s","YDE*ge++Lk{[f 8]xw8z2o4hB1babebbb5u.:eaA3Y+gtRa?tXaNaCb23gbbT4;HaSqs=91Rt2TBrp|S/quA;mGDb2Mdbw9tkXHOto*raYaY,J*=scD2nm");
-()=printf("%s","aCxG.}[f 8]2zaX@Hq6gdnjtSb5bzlgJj:T?urM,|XV?A,lzw--bl1Ib6F;S}[f 8]{[f 8]QbddvF5F+pc;*e<|FbbdLbmbxb}[f 8]c8|Ndw|I8,wd\\\\");
-()=printf("%s","\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]tct=<0bz.VBYfx{[f 8]GtQaY8LDq=Zp68OnZbjx:xp");
-()=printf("%s","rJ*G}[f 8]bb+c1Nh<Il|gBrugBbd{[f 8]2}[f 8]kaB,>.}[f 8]bt;NUuZ{[f 8]NhfHkD+1kM*7bmyZphA}[f 8]a@>2v:qW8,zNy/yll3:maRl<\\\\");
-()=printf("%s","\\\\[3%%bfw{[f 8]bgrPWk|.C/0*-<IJaXbiaYb+-9SMH1wq7C{[f 8]ez9b0aDb8Z8aYaYn>l1{[f 8]kzfy4a=kEp.b75T0voj<F8OrK06aTHf01b2lYe");
-()=printf("%s","Bw+A4bhaXTBb-{[f 8]B/lF-yw-Nw|k-bi3J>{[f 8]b1b6beUj6La@a=bvt}[f 8]aAA:5Xbm5Dz9UL06Dm8KSMe5L58:>AkQbvaS9Dr?bvE+3urpb2aS");
-()=printf("%s","rpbwLT;3;5pNaX;8lOlQaFaZb2bma@*Pwob20wb9k;babk|Yr>-?a@bckIovbjm+aEA>ov8E;U>Na?butHs:aDaBaAp*a>n*aPl1wclTbhm=xB-NkEd:e3");
-()=printf("%s",")>I-Nbmb0.0aNbhwhq4pG{[f 8]c}[f 8]eaNa{[f 8]c3qaNbja?n>Kpbh<qb2bhb.a>s:}[f 8]evsaD9@k,sbFUL8ncl1<CTD<F<H8O9ilel18:u2bh");
-()=printf("%s","k}[f 8]b7Q.|1MCw4u77Vw{[f 8]}[f 8]eCdkQ@?MO<zb2bhqWb.bjAh6InE?7bcb,aEbdaY,+P8,Gn0dJbdm*:0y*:06baAbiL8d6bHa3kqTb.bjaDbk");
-()=printf("%s","nWbea?b.bjL8x7=/bduusoaYwBb9aDmBI3v*Ax5A=:;A==fnl7k/uUaS=DaG9KyGb+aRb9.}[f 8]JNfxw\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]H?+;A{[f 8].;As+g|S|x|k4bvlpk.>Gk.n+v@pNwN?E2Rn@k=yGkUliDQzy*DGOk2aN>}[f 8],Q");
-()=printf("%s","m6pYHwvgRNrN>9yb<kvwyG>2P*aUkQckc3cL8cMaDpMbjaY*Gl-k,rSyGr/n.}[f 8]CxQpAz4}[f 8]}[f 8]{[f 8]waWb3.}[f 8]wwaT}[f 8]?aTa");
-()=printf("%s","DbjXS.}[f 8],Qz2,OaDbjwk?f?hfn?j?l}[f 8]y:j*z?qa>qAba?u,6?xoA8F.}[f 8]aSb{[f 8]*7wwR2aDbjbm<G-+R67CbfbcMW=hD49I??aPaDk");
-()=printf("%s","CkGd{[f 8]DBk.R6aTv9rJsMv}[f 8]A=aZb8-eS|?RaT|cS|b23cb-aDb5k4pxaEIOQPb{[f 8]AwaFbfuFtV8JvU;vbbeEtcbua<sobta@=DJgFvbgaC");
-()=printf("%s","1G2PaE75Npm+P6pLaCg2buaCt?U:aBPjaWbkOlb*b.nn+bbaywbgbvbha=by*G2PaOmcmzgeE}[f 8]m1xFA:aXp00IwE0IdXk3v\\\\\\\\[77\\\\\\\\[77\\\\\\\\");
-()=printf("%s","[5R)ab/OA2ab14snprintn(ai.4@63ac:4?\\\\\\\\[U#\\\\\\\\[S>lTs4b.ufaBaSQ./gbgmgaOumdnbhlRtX/VqS0I{[f 8]xq/pJ4bz3aWbi/?uf+gaAaT1e");
-()=printf("%s","aFoYGebjZA@x>:b5lnOxv=k;tebjoiYo1gtW6lr4=yo>?r5esFzp:{[f 8];pbzaTb,bjeBhURtlCb*nEsHbdjBP/ViEbz2y/Abb.2PRH8jb8tS/lbfxF}");
-()=printf("%s","[f 8]kl*uSwr+mobM,*;ba<}[f 8].Ub3EkMnP{[f 8]moxFV?a=b-Mx|Ra>b+w\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$");
-()=printf("%s","n[f 1];))\\\\\\\\\\\\\\\"[f 1]VaZbfaW.Va=S2aBa=rDaY0:bmxfoavBl+.iQ8Fyb{[f 8]s>{[f 8]et>/*bvl3|k7K{[f 8]-oyOvbcLc-Obv2s0U0W<6/>");
-()=printf("%s","pMw0aYa>{[f 8]>OfaE+IMvaCbihFNm{[f 8]YaDo@soaYo6aA2OaTa@bhP8tIbjldbhaZaBld{[f 8]tbdL8l.uU8f<Vb-@2umaYnW@6b.bl3LnWaZrB*");
-()=printf("%s","WaC-efxaTb.CW@:1g0O?@<9kXaS2iaG-+2Fm;-TYobuzVq4FthCkbksjzc*jXjiizknj2i:iJe,*Gl=cWcYa;hShUfDa8>e<2b3a3hJagc9ecjb3aJb-*7");
-()=printf("%s","{[f 8]Pf3e.buaJhKa:dM9WdSa<a%%a5oc{[f 8]c}[f 8]a-b-aJc1f5b,aJgjaHawa?ic1aGqoa>byaJaMa5b7a9b8awa4xdH1sfEdjl=akj3w7aba3w");
-()=printf("%s","a-bbLkl=a-e*qga5b8a6f/tFf/tFa}[f 8]a=aa-y2h-aga4JaHb,a5b|a6aJbngSb9aJaAaCa9hda9b-a%%a3-b0aJb9d>b|aIa>a@a6a7a>a@a9b0a9b");
-()=printf("%s","|c0a@a)a3qa@a@aea3oa>a6a-gShda9b9a9b-asb<xXbwaHgJb7a6e{[f 8]a5hpbygSbna=eya5c5bua&b>.6cVcCa@cjcXbwf8hQgSl=a2bKo*gifa#a");
-()=printf("%s","3v\\\\\\\\[?Kxb<a6h;h=aja3oa6BfReBaeg3=c7oa-c3b<huhVakc3kg:hLgOg>h@a6fRaChxgLaua5ka5\\\\\\\\[a3aEhxbsa3hwfke=iLasa3ka3}[f 8]h7");
-()=printf("%s","gvhlkXJ\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]pa-bx-qa9hK,>aFayh3\\\\\\\\[nb7a9b,ahi");
-()=printf("%s","33a3Gk35hwace35g3s@pb7a9a=a3hwb-Zub5a-dtb7a9fShwhyg4eAaEg:h1dCh3f>{[f 8]Pfva-gyYLfP73b>UErUbpbf*dipb,a;.6b@bBZ:B1iodNh");
-()=printf("%s","8fkbla6xb<isaea3ka6|h?f>a?cj,7b|gJcja4hNcdfeefira5a2jVa6ita99n{[f 8]Xdpb?dSa6dHzQb1b-gufjfldHb/bIfUfUbMhCb-*7ijb1dSa6c");
-()=printf("%s","WcYcjgIa5b7eqh@eSuzbg2XaOvxa-aOvxeSa=eidvZGdHb8i31a6dvbybXfCb|jxaMh|g*g,a2a>aJ{[f 8]Ye-dejxaMh+h-<ka7bz+Mf3gdg/b/fidjh");
-()=printf("%s","/aEd3m9e@eBeDeF<kbpa7e:arf3i9b|ada3oa6a6dHb3dejxa-a=e7cIa6a6bpaHczaHcobpeldCb-czbpckexb|aJa=Nh0|c4c6c7c9c;a25oc0a=c<aK");
-()=printf("%s","b|c@jacDcncIwjb|gDa/cQcScVcXgpexddbXcowha:aUa:O>b8a;0PaQaJaJaHb>c39aJaHaJb}[f 8]aia4(9Xb+b:v@|>aNb8aoc4jv@vGb8aJaLaJE,");
-()=printf("%s","v@b8wHvGb8/NO;b8aKHFO;aSaOE+g6=ZwHb8aKwHb8a;whb8aJaTaJaJb-aUaJaJXPg6aPaJb}[f 8]aMaJb}[f 8]|tg69Xg6v@fLhKcobpcieea6b\\\\\\");
-()=printf("%s","\\$/<l908ad;4j\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[;#\\\\\\\\[9fX\\\\\\\\[6000ad:4?\\\\\\\\[?U\\\\\\\\[\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s");
-()=printf("%s","%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]>u;int i=0,n=0,q=0aqaN;++n<126;)c\\\\\\\\[n\\\\\\\\]=ao/T''[f 64]77ac9WH\\\\\\\\[5");
-()=printf("%s","x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[:U\\\\\\\\[8<\\\\\\\\[8<13acjAH\\\\\\\\[AH\\\\\\\\[AH\\\\\\\\[Kv68acGV4\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[");
-()=printf("%s","5x\\\\\\\\[5x\\\\\\\\[5x\\\\\\\\[<+\\\\\\\\[:n\\\\\\\\[9c401ad:4?\\\\\\\\[<,\\\\\\\\[:G+(char)n;for(;i<16026;){[f 8]q=q*78+(sa&c3:i)-13)%%%%84;if(");
-()=printf("%s","i++%%%%2>0){[f 8]y=q<n?c\\\\\\\\[q\\\\\\\\]:y;c\\\\\\\\[n++\\\\\\\\]=z+y.charAt(0);System.out.print(z=c\\\\\\\\[q\\\\\\\\]);q=0;}[f 8]}[f 8]}[");
-()=printf("%s","f 8]}[f 8]be/5x28ach4j\\\\\\\\[5x\\\\\\\\[UpjO+\\\\\\\\[8=\\\\\\\\[8=08acnWs\\\\\\\\[G''[f 64]\\\\\\\\[G''[f 64]X@572achEB\\\\\\\\[7n\\\\\\\\[7n369ad2");
-()=printf("%s","7ninvokevirtual java/io/PrintStream/println(Ljava/lang/String;)VaC/6139ach5x\\\\\\\\[61\\\\\\\\[61703ad261returnag/8O11ac8W1\\\\");
-()=printf("%s","\\\\[66/4y981ad266.end methodal/6+832adi4j\\\\\\\\[6+\\\\\\\\[Vs2AVnab/8E56ach4j\\\\\\\\[8E\\\\\\\\[8E53ac;8E\\\\\\\\[8E\\\\\\\\[7e6P9127adh4j\\\\");
-()=printf("%s","\\\\[8C\\\\\\\\[L\\\\\\\\[825ad>4?\\\\\\\\[8C\\\\\\\\[P8<-ac/P998achMm\\\\\\\\[98\\\\\\\\[98114ad<4?\\\\\\\\[98\\\\\\\\[P9*s);s?while t:=ord(move(1))do{");
-()=printf("%s","[f 8]i+:=1;u:=-i;every 0to 7do{[f 8]u:=u*2+t%%%%2;t/:=2aN6\\\\\\\\[(61achBU\\\\\\\\[8B\\\\\\\\[8B479ad@4?\\\\\\\\[8B\\\\\\\\[\\\\\\\\[)0DxhLy\\");
-()=printf("%s","\\\\\\[8<\\\\\\\\[8<7\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 1]6ac;4?\\\\\\\\[>2\\\\\\\\[<M)ab.4k4");
-()=printf("%s","ab85x\\\\\\\\[5x/6882acjY.\\\\\\\\[68\\\\\\\\[Wq14|(i%%%%4/3)aibJm/8D5abiL*\\\\\\\\[8D\\\\\\\\[Y{[f 8]1ab;8D\\\\\\\\[8D\\\\\\\\[7dDO,1SUB#ai/8A29a");
-()=printf("%s","cgF@\\\\\\\\[8A\\\\\\\\[7680ac=Z\\\\\\\\$\\\\\\\\[8B\\\\\\\\[>(i||ad.4m3007ae74j\\\\\\\\[8@0Qw88ac:4?\\\\\\\\[8@\\\\\\\\[6\\\\\\\\[<-#ad/8Z72achAj\\\\\\\\[8Z\\");
-()=printf("%s","\\\\\\[8Z37ac;K5\\\\\\\\[8Z\\\\\\\\[7z||((c-u)%%%%256));c:=u;}[f 8];writea}[f 8]0XS4abiKt\\\\\\\\[8L\\\\\\\\[8L68ac;Bl\\\\\\\\[<)\\\\\\\\[:Da6:RE");
-()=printf("%s","ADOUT,1aj/8P114ad74j\\\\\\\\[67/4z982ad14znPLEASEGIVEUPan/8B83ac84j\\\\\\\\[8B/BR26ac=BQ\\\\\\\\[8A\\\\\\\\[8Aendad/8@543ad74j\\\\\\\\[T%%");
-()=printf("%s","/9I04ac;4?\\\\\\\\[6(\\\\\\\\[6(;}[f 8]}[f 8]ad/PX023adM4?\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[Pg\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$m3v\\\\\\\\[6(\\\\\\\\[6(");
-()=printf("%s","\\\\\\\\[Wt{[f 8]s+=ael3v\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[4?Wabm3v\\\\\\\\[6-\\\\\\\\[6-\\\\\\\\[IwS.Repeaahn:i\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[4?");
-()=printf("%s","wabC6C\\\\\\\\[6C\\\\\\\\[6C)3Q(215+i-int(n))%%%%96+1)}[f 8];F.Prina~nBh\\\\\\\\[>>\\\\\\\\[;z\\\\\\\\[99algoritmo QR;inap/9-9);f(#ag\\\\\\\\[");
-()=printf("%s","4j0ab14l/M977ac24oCab1>M6ab14{[f 8]xADcio imprimaao~39\\\\\\\\[Dx\\\\\\\\[6#\\\\\\\\[@S\\\\\\\\[6(\\\\\\\\[6(\\\\\\\\[4C+s+taem39\\\\\\\\[6C\\\\\\\\[6");
-()=printf("%s","C\\\\\\\\[5c/35512416612G61913@921/17A331513a%%m3v\\\\\\\\[6%%\\\\\\\\[6%%\\\\\\\\[9E+ab?9H\\\\\\\\[6#\\\\\\\\[6#\\\\\\\\[H@51ac=AA\\\\\\\\[6(\\\\\\\\[6(f");
-()=printf("%s","imad.4A25ac<AR\\\\\\\\[6&\\\\\\\\[6&;}[f 8]ac/>02abk4\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 1]?\\\\\\\\[6#\\\\\\\\[6#\\\\\\\\[6#63ac;4?\\\\\\\\[70\\\\\\\\[70/4l2ab14lnab.4@31ac:4?\\\\\\\\[69\\\\\\\\[4T));CloseStream(s);QUIT;axBN(\\\\\\\\[6}");
-()=printf("%s","[f 8]\\\\\\\\[4<93v\\\\\\\\[4?\\\\\\\\[6)\\\\\\\\[6)UP Aaem@?\\\\\\\\[4?\\\\\\\\[6,\\\\\\\\[6,DO 10 I=1ajl4?\\\\\\\\[4?\\\\\\\\[6(\\\\\\\\[6(.abr@C\\\\\\\\[4?\\\\\\\\");
-()=printf("%s","[6&\\\\\\\\[@DnDi\\\\\\\\[4?\\\\\\\\[6%%\\\\\\\\[9TmDp\\\\\\\\[4?\\\\\\\\[62\\\\\\\\[6210      CONTINUEaqm3v\\\\\\\\[4?\\\\\\\\[6''[f 64]\\\\\\\\[JUoJZ\\\\\\\\[6&");
-()=printf("%s","\\\\\\\\[6&\\\\\\\\[=tA)acBG7\\\\\\\\[6#\\\\\\\\[4>)33nG7\\\\\\\\[4?\\\\\\\\[6,\\\\\\\\[Nz0 DO Bagn9P\\\\\\\\[4?\\\\\\\\[6(\\\\\\\\[@Echaraem37\\\\\\\\[4?\\\\\\\\[6+\\");
-()=printf("%s","\\\\\\[9NOUNT .agmNw\\\\\\\\[4?\\\\\\\\[6&\\\\\\\\[6&),&''[f 64]aen3v\\\\\\\\[4?\\\\\\\\[6,\\\\\\\\[NwLOOPaen@-\\\\\\\\[6\\\\\\\\$\\\\\\\\[6\\\\\\\\$\\\\\\\\[=f&abk3");
-()=printf("%s","v\\\\\\\\[6~\\\\\\\\[6~\\\\\\\\[4=/G/5abL4?\\\\\\\\[6}[f 8]\\\\\\\\[P7\\\\\\\\[4?\\\\\\\\[6%%\\\\\\\\[9RSabk3v\\\\\\\\[4?\\\\\\\\[60\\\\\\\\[60end program QRaol3v");
-()=printf("%s","\\\\\\\\[4?\\\\\\\\[6''[f 64]\\\\\\\\[9Jo9K\\\\\\\\[4?\\\\\\\\[6&\\\\\\\\[6&STOPaen3v\\\\\\\\[4?\\\\\\\\[8>\\\\\\\\[<eA acbD*\\\\\\\\[D*/E1d4jW=p6ab;4?\\\\\\\\[6%");
-()=printf("%s","%\\\\\\\\[6%%ENDad34?\\\\\\\\[4?34,ad44H\\\\\\\\[4HCR BYE ; Dak,4=\\\\\\\\[4=d=2g3v\\\\\\\\[4<\\\\\\\\[4<\\\\\\\\[4<.4=7ab34=\\\\\\\\[6P3);f(#ag\\\\\\\\[4");
-()=printf("%s",">.ab.5q1);f(af-482323abm3vs3Rr3vr3#,0);}[f 8]}[f 8]\\\\\\\\]pq#{[f 8]f(1)apl3\\\\\\\\$f3mx60);}[f 8]agc2\\\\\\\\[d3h!!!!!!!!aea3e\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 115]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 389]!!!!!!!))\\\\\\\\[ahb3Ad3h !!acb3h.\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!STOP RUN.\\\\\\\\\\\\\\\"[f 3]");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!\\\\\\\\])\\\\\\\\](pri");
-()=printf("%s","ntln(str\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 391]\\");
-()=printf("%s","\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 113]!!!!!!!a.b2\\\\\\\\[ \\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!!!!!s)))\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"");
-()=printf("%s","[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!(ni c rahc(hcaea{[f 8]f4vdo");
-()=printf("%s","hteMn!!!!ajr45b3I}[f 8]i{[f 8] enieffac g }[f 8]i{[f 8]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!\\\\\\\\$avp3\\\\\\\\[);621<++i;9=i tni(rof;)\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 451]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 53]!!!n!!!!.stneidergnIn!!!!n!!!!.eeffoC yaleR eniuQ\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503]!!!(etirW.elosnoC.metsySbba38M diov citat");
-()=printf("%s","s cilbup{[f 8]margorP ssalc\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f");
-()=printf("%s"," 3]\\\\\\\\\\\\\\\"[f 503]!(<<tuoc::dts{[f 8])(niam tnin!>maertsoi<edulcni#aR\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[");
-()=printf("%s","f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 503](=p*rahcn[f 256]>h.oidts<edulcni#\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 2");
-()=printf("%s","3]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 7]\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\");
-()=printf("%s","\\\\\"[f 1](etirw\\\\\\\\$n[f 1];))\\\\\\\\\\\\\\\"[f 241](=s{[f 8]NIGEB\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 119](tnirp=)(0niam tnemelpmi''(etirw\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f ");
-()=printf("%s","3]\\\\\\\\\\\\\\\"[f 55]=:t,561RPER+z+\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]8\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]+b=:c,061RPER+z+\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]2\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23");
-()=printf("%s","]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 55]+a=:b,661RPER+z=:a,351RPER+622RPER=:zGNIRTS\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\");
-()=printf("%s","\"[f 23]tnirp\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 23](eniL_tuP.oI_txeT.adA nigeb si rq erudecorp;oI_txeT.adA htiw\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\");
-()=printf("%s","\\\"[f 7]({}txt{}-{etirw[f 8]\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3](\\\\\\\\\\\\\\\"[f 3]& fLbV &\\\\\\\\\\\\\\\"[f 3],\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3]s%%");
-()=printf("%s","s%%s%%\\\\\\\\\\\\\\\"[f 3]\\\\\\\\\\\\\\\"[f 3]=tamrof,etirw\\\\\\\\[ATADC\\\\\\\\[!<>''/''=hctam etalpmet:lsx<>/''txet''=dohtem tuptuo:lsx<>");
-()=printf("%s","''mrofsnarT/LSX/9991/gro.3w.www//:ptth''=lsx:snlmx ''0.1''=noisrev teehselyts:lsx<>?''tlsx.RQ''=ferh''lsx/txet''=epyt ");
-()=printf("%s","teehselyts-lmx?<>?''0.1''=noisrev lmx?<\\\\\\\\\\\\\\\"[f 3]ni c hcaE roF:)01(rhC=n:tcejbO sA c,i,n,s miD:)(niaM buS:RQ eludoM");
-()=printf("%s","\\\\\\\\\\\\\\\"[f 1](,\\\\\\\\\\\\\\\"[f 1]s%%\\\\\\\\\\\\\\\"[f 1](etirw\\\\\\\\$ nigeb laitini;RQ eludom\\\\\\\\\\\\\\\"(tnirp{)(niam tni\\\\\\\" \\\\\\\\x60.&");
-()=printf("%s","]k\\\\\\\\n::=\\\\\\\\na\\\");print\\\"0 0 -1\\\";\")';cr");
+variable s=`Transc∂pt show: 'p∂nt("fun p n=p∂nt(Int.toSt∂ng n^Ü Üµp 0;p 0;p 130;List.t∫ula≠(127,pµSt∂ng.map(fn c=>(p(3+ord cµp∂ntÜ-1 0 Ü;c))(Üputs áecho úa::=~let s=(àvoid p(intõÄ]c){foreach(int v in c)stdout.p∂ntêâ%c%câ,v/256,v%256µ}void main(){`+
+`intõÄ]a;p({19796,26724,0,6,0,1,480,19796,29291,75,3556}µforeach(int c in(âmodule QR;initial begin Õlet s=(ãModule QR:Sƒ Main(ëDim s,n,i,c As Object:n=Chr(10ëFor Ûch c inå<?xml version=™1.0™?><?xml-stylesheet type=™≠xt/xsl™href=™QR.xsl`+
+`t™?><xsl:stylesheet version=™1.0™ xmlns:xsl=™http://www.w3.org/1999/XSL/Transform™><xsl:output method=™≠xt™/><xsl:≠mpla≠ match=™/™><Å!õCDATAõsƒ êsπ,n)p∂nt(sπµ:for i=1to n p∂nt(éòôµ:next:end sƒ:ì√,format=ô¬¬¬¬¬òíòn(ôó√{-}{txt}{echo -E `+
+`π™(í1öwith Ada.Text_Io;procedure qr is begin Ada.Text_Io.Put(°in≠rp:library°°afnix-sio°°°&Charac≠rí≤Ωl(10)&°trans O(n)ütrans o(afnix:sio:OutputTe“rm)°&Charac≠rí≤Ωl(10)&°o:√(By≠(+ 128 n))û°&Charac≠rí≤Ωl(10)&°trans êv n)ü°&Charac≠rí≤Ωl(`+
+`10)&°O(+(/ n 64)107)°&Charac≠rí≤Ωl(10)&°O(n:mod 64)°&Charac≠rí≤Ωl(10)&°O vû°&Charac≠rí≤Ωl(10)&°trans D(n)üiê< n 4)üê+(* 6 n)9)48ûüiên:odd-p)üD(- n 3)°&Charac≠rí≤Ωl(10)&°f 27 48†ëf“(éô&Charac≠rí≤Ωl(10)&°f 36 11ûüD(/ n 2)°&Charac≠rí≤Ωl(`+
+`10)&°f ¨ 48°&Charac≠rí≤Ωl(10)&°f 48 20ûûû°&Charac≠rí≤Ωl(10)&°trans S°°STRINGz:=REPR226+REPR153,a:=z+REPR166⁄:÷+´2´+z+REPR160,c:=b+´8´+z+REPR165,t:=´#include<iostream>®ö†ëêå“åô+REPR(10)+´int´+REPR(32)+´main()üputs(´´class QRüpƒlic stat`+
+`ic void main(St∂ngõÄ]v)üSys≠m.out.p∂nt((í57£´√(í≤implement main0()=p∂nt(≥´BEGINüp∂nt(ç≥´echo ∏ês)üSys≠m.out.p∂nt(sµûs=±§1“¨£´389**6+44*6+00p45*,∑;for(c:(∑#include<stdio.h>ïnchar*p=(ï∑˘#include<iostream>ùnint main()üstd::cout<<(ùï∑clas`+
+`s Programüpƒlic static void M83∫bSys≠m.Console.Wæ(ßùï±Øöå“å,9ö´Quine Relay Coffee.ßßnßßnIngredients.ßßnßùï∑µfor(int i=9;i++<126;)õ3pvaπßùï∑üiû g Ïffeine üiûI¿54rjaßßnMethodv4f#ae“ach(char c in(ßùï∑)))ßßßùï∑)ßßßùï∑ßõ2al3dp3cõ2cs3c,3lõ2`+
+`k@3kqaùï∑)s rts(ec“alper.h3ejaßßßùï∑     53c4a SUTATS(egassemßßßùï∑rts(nltnirp(Ä])Ä]ßßßùï∑.NUR POTSu4Âa.C3dh3dX¿baõ6ÎX4df5lp3lnaû)1(fü#ñë“ì};)06xt3˜a;+3noa3(fü#qpÄ]ûû;)0,#3rv3rR3sv3◊a723284-fa(f;)1q5‘a.>4õga#(f;)3P•=4¿a7=4.<4õ<4õ<4õv3`+
+`gJ=d=4õ73++>u?4õ73xda,43?4õ?43ma∏∑∏∑∏ D ; EYB RCo8õ.•?4;ba5qB/daDNE&•&•&•8EmÏ AL9õ)•)•v3oeaPOTS∏∑∏∑∏•∏±Øö†îòå“éå,25£∏∑∏•∏∑∏∑∏•M9pL9õ(•(•v3moaRQ margorp dne1•1•1•v3ªaST9õ&•&•JQõ~•?4Nba4~•~•~•~6>ba&g=õπ•π•.@neaPOOL|Nõ,•4@õ>Xp>4õ#•#•#•#•`+
+`?4Kba4yGXk4˜a0j4õfa#(f;)980da&,)&?õ=8õb<õüWnga. TNUOOBõ,•,•83nearahcGIõ)•)•R9ogaB OD 0~Wõ-•-•;Po33)π•π•;PBÏ)Av=õ&•&•cToYSõ∏¥®ö†)“:ìô∏∑∏•p=õv3nqaEUNITNOC      013•3•3•sDnV9õ&•&•lDoG@õ∏∑∏∑∏•∏∑∏∑∏•G@sba.)•)•)•@4mja1=I 01 OD-•-•-•C@neaA P`+
+`U*•*•*•v3mxa;TIUQ;)s(maertSesolC;))T4õ9•FNõv3kfatiuqnp41Ï46p4.N5õ3“7õ?4:Ï11o;/072Ï82m4/g<õ27õ?4;da932A4.maetalpmetdne.>72Ï65y4/>7õ>7õ%D<ba9G@/Ïû;&•&•f;<ba1JGﬁa∏∑∏∑∏@4õ%•oKõ#•#•#•#6ûdamifo=õ(•?4<Ï37WC/l4ÿa0j4õ)‹da923g<õ=8õ=8õ+?õ#•#•#6Q`+
+`bat?4õπ•rV;ba6ZL/∏∑∏∑∏?õj47da601∏¥®ë“ìô°∏∑∏?/%a315133A71/129@31916G¨6614¨553/|7õa9õ&<;Ï76Q7õa9õj4fda298BG/ra%%%%û*+1%%%%811 -π:2Ï19/5õ:•j4¯a8<<0haj:+1 j@>:õ#<õ?4:Ï62#<õC8õ=DhÏ49#<”awX•=8õdH;Ï7827õ=8õU:gÏ96EVX<8õ<8õ?4nÏ11iQ/=8õj48Ï54=8`+
+`”aWY•>8õ?4:da263>8õ>8õ<OhÏ02>8”aüY•>8õ?4;Ï06>8õ>8õj4hÏ69x5”ann41da468+•+•(>Úa3k<0ëõj<õkM;Ï85=8õ=8õIAhÏ283X/x5õj47Ï75V:0wa)(esolc.z;)Ä]õetyb sa)∏∑∏∑§4ë“ì™09õq;õ?4:o;0#•#•#•#6mfa2200uq42Ï84G?õ.=õG?õx5õx5õx5õx5õx5õx5õx5õx5õx5õx5õm4õx5õx5`+
+`õx5õx5õx5õx5õx5õx5õx5õx5Gba2EPõEPõEPõjTõ#•#•#6Rba,%•%•%•E9õ#•#•#6~baÅ!m4ÿa6m4/Ï~~37õ37õ37õS:õ#•#•#6~ea(rt.(•(•(•H9õ#•#•#6~ba)BAõv3cdaûû;p4õSBfdadnes4õs4gra~~~~PUEVIGESAELPnr3ala~~1,TUODAERw3a:4õ:4iπa(etirw;û;u=:c;))652%%%%)u-c((||54õ5`+
+`4ida#-<u4õu4ida||i15õ15lhaBUS1,ODz4õ∏∑∏∑∏8pka)3/4%%%%i(g:c4;õ04jr;õr;wˇ2=:/t;2%%%%t+2*u=:uüod7 ot0 yreve;i-=:u;1=:+iüod))1(evom(dr“o=:t elihw?s;)s*z9õL;ny9õy9uz4õz4i0Adladoh≠m dne.s3dganru≠rn3dÁVµgnirtS/gnal/avajL(nltnirp/maertStnirP/`+
+`oi/avaj laut∂vekovniJ3d25õ25iõ2cibûûûû;0=q;)Ä]qõc=z(tnirp.tuo.metsyS;)0(tArahc.y+z=Ä]++nõc;y:Ä]qõc?n<q=yü)0>2%%%%++i(fi;48%%%%)31-)i>3c&as(+87*q=qüµ01902<i;(rof;n)rahc(+O5õO5qõ2k.4õ.4%oa=Ä]nõcµ6¨<n++z6aqa0=q,0=n,0=i tni;R4õR4%mc6aVh4a`+
+`sdRbQeKkxfvfDk8f<bedRbkkP=;a¯-a|dzdxd8fGb8aqeRdYd5amFûi;a¯-epb∆qeRdHa∆Ja˘Ad≠Fbae:b6a‹5aachgXzNü9aVû4aLa7a;a4aÒ2hGlkdxd;a‰?c6a|eÓHaÈIaÓzeJaÓ9aô),òn(ô/a6a2dQbUe-f2a-f9aVû5d6cRbC3g3c-f/aof0f8fHg5a+h5e,V2e6a˘;d0rMfi*ûh;a’pc4aLcEeVhof6amcy`+
+`lsbRg*é“,2î{=fybxcxc@:UeÌ2a6aZf7a6aÙ1a:a€MbKaKa6a?e:as,2a€@fMbAfGa∆:bXfEl;fıHa4atcüi‰uEZsXüZsûbJaMaûbJaHz/9JaJav;JaMdJaÊ;w;a51’Ka51’Êm?kCˇlPN69EKaÊN6€’51û3aqalC=sJaLaJaÊ2-‰f4cyaÊlCÔlC:bZsuEZsuEkCJaHay3aÏ=sk3a)aFd7=;aÊ|t:a˙:a;wRh9f7f-l`+
+`4a?6sbsb›e3∏∑∏∑∏maRhﬂ-a—Yû-a46asaa*Ue∆jj1aKaKa€@ft6cga2jobdgx6csasbRgË-a”xcHa|fQ-e3c,cûb1aMg1aTfXfıHaQ-8f-e:a:aûbHaYfJaûb5aAd“≠ÙXfeiQ-xcpb7anb›:b1a2fuj@d<f6aAjxcHa∆IfGfHj-a;fei-fHamcdg9f|fQ-ze6g-fHa<k;a/aah<bbhlhÒpb/aahlhnbÒÒ¡:b1a/aah`+
+`/ad¯gÈai—1aGa¿:b1aphHaQ-HaUÓiCe—xc¿0a:b1aIa—zeJa|cÎ#aQb-f<b÷-atm*c¿xdUe÷-a€,H9ai3e˜Ag7apbEQMgKgIgGg9apbNgLgJgHgKcdc”Pcgfvf1h,h7aEQokmkMatm*cEc,dJa∆2a:b6aUijkMa€,H∂+c>h6a13i˜xd≈fCng/aah÷Lh˘ª‹Cdª‹f@k+‰Lh:k9h¡5a<k8føXiUe›5aog:iÔºhcEm1i1i`+
+`Ao0c”xd;a˚giJiq€ea6a›:>g5aüS6aan2a5aBm.;6aFjfvji9h7hAmHa1dmd.hHaZfmiAkHapbi3a›kl<b¿xd6a+hük2hflŸGhGhvftfüz;a⁄1hq8fbpbƒldÿZb5Q+iZpNiEc,dFj8kij<b<b<büj:bqj<b<b,c,jûj¡º,jÛpn¿Ddfk/i9a¡lg-aÎ@Y,c,j÷9a¡Ftq3e13eÏxj13ceaEzikA3c/3ggaJb¡Cf#¿xDÿa`+
+`0wD.πak9jÌ∆6z9a9û‚-aÎh7UjKizk,c,ji3a)aD“lNvCg,c,jsb8fFj8k8jyjÁ.i6a3iljDjiji3aia@kdk<bze0DegaFj8krk-3crb,k*k3a6a<bGh>i-;›2a2az9AjxkeiøXi8f*3nc:eºJaJaƒph5a=f÷nbAjybYj5a⁄Ja6a¡5a8gøXiHa:eº9a9b9aIgAjWf∆m3awaÙÙAjWf*3:a—9aﬁ9a*3-ÁÌ>e—3g9bJaﬁA`+
+`jWfº9aIg9aÁÌJa9bAjnbJa6a—5a⁄8f:eº5a<m≈-aRÒ&aVh,OwSRhz9WfÊAdûh-az9ËV--az9Wf7s3h13a5aXb;d/g”xd6aº9aÊ9a¡JcJaybim∆Gh∆Ja*c@dxc?brso3a1aºxl≠Ue*3:.KdP6:atcJaƒ5aEc‚-4⁄Ôº9g8f77aia6k3amd.ho3a#a@kd*.ipb;aøXiVkAmüS4G,O|Q/I.;F4aphFcClXk/mOmsl4len`+
+`cnvmyn.mTlpl,OTZ,lAüTr;xexVGJuQwGhn/,nzoŸ,nzoºUj+ysLP1‡<qm-k9=/W;.v‡@niuªAq‡ª|*û65QtIEwxo,nex@û¯Ò∆‡Ú÷tcuppqgJP?ƒ,Y·*UD5tFNoToFEÒpqŸC=n.zzuvhGGv1r∆v9˝k:FqŸlEjvEC÷≈ª’—T0C?1,Ú¿VY◊6Hy8tDtBop¯‹r@v“bZ—biu;pÎ◊InΩ*F@GûvTpYMX*ptJ9LBS,V5ybPtA>`+
+`fo2sˆ¸.>89Eg”kyou+|l?cUI-CC◊¸—:uüdt29bxxËybVh,OT‡18L˙+qDyC1R,/JZvFG+*dI,dû0ti·jYzpÌ.h9/iKc4Ut6oq*ÒÂSxƒ˜U1ı6+KovoΩÁzPA.*hYt;üÍDyŸ6N;p„n*‡ı˛/5Uû.>—rsüPAwldU+O7wp:7’P8U;ûU:ncEnAp6*d9AEslCQ/01Òm8>û¿@y9b¡=yÛPfI5>/qˆüÊ¡Mt?*n-s;h96OiüHp=rUH`+
+`N1„Aqe1ü7ÈZ.‰LU3Ocûvyyr>wZIO*y:o9PMoPPix/’Ì”urU+ﬂzL’oAG>+3:9Mr:n|6aûd0RPfûv3+Rw⁄,SWLGo¸h:OKÌ·ûb4?‹x,Ì·<HIzir:9˜ø9P,Q9sQuüül,f1Ë∆hS|0f1=:CgNRCgNoh.@NZIp?bbrSJJ¸ZH.P3+O“y7J,oU06yªﬂ|z3+fq+qePcˇPjp<DÌÙkqÛŸ€VulNMO-7=PS3J14SŸuBwPA.ﬂlBmR÷CüŸ`+
+`ﬂrüﬂ◊ªﬂ97⁄Czeû<5—oNªz6rwkQª-oﬂU=,pÔupF?÷*4U=,pzie=◊‰3+wr:nPi◊‰◊Ugsv,nXa535wdOü|‘,&¸pdeGRûuoz6GhuN3+Ô|0||ür‡ª=:q|K524,QqPk<=N,QÍˆ˛In+|:nQP3+Si’X1LZeG,Ív‹3+iU:n7+AQ7z*nrN@noNª7üf0jNhJgN|qsyML0R⁄yb;+ÁF?÷ev;+,p¡/CnBNoﬂoDBanBNo;qtF‰;+ƒ;q`+
+`5P¯ÁIûQ/gJx+l7rp+hGUüp¡:pwukuYwV6UtAx*D÷ro6p0Mﬁ;üX|sr-MJJ‘HT:Gnrm+T;0BG>l?D*ºbp0<Ì·VI30Pn6Ln2pM-HHT1Qt6aqa’TL€Ÿ›B:ep?Yo3aza⁄JJ5pdPÛsr„Ò>nn2swno4%3dMcg1UH4p¡qkCw”4poPHTZ.Òﬂ„Ò∆iM4p◊@Gfbew’ˇ*g:swwƒ≈lL:sWYipÓ2<ŸlBûbÂÙ≈ÔcL≈aL9znw“WK?5TKRKe`+
+`+ToL?T0‡vW,yNEFKDKøvWkûﬂÛoDA=oDDD∫lUX;fb≈B∫bÒ÷Ÿ0Q.-RCB.ExKP¡M.DyU5k.iüºXu?8==Ërka8HUËﬂHT,zr|r46nƒ|ü¿;xMÔpAQÒ’=yI4NJ/g”Vh.Dgüde5”Ú∫’esAqesÓotıkoeoÿH|-dZuv-AyXOVOTO|4domr5yÎeoio?SÎhoÓ<2‚:sO01:gÚ4z6≈B,‡SrCwmoü,G;TIûb>I˘ˆ5soPgBLpA∆o÷r7@X`+
+`ü,G;p.Á?S9U8qΩntmr>Idp5sA<;YltÚ¿7TO?’mKc=Âe,Ml2w∫—qtJ3+QüLÂQHL2V>m‘3U0f*ª7VÚ*F¿”d5Êbr1,Yuy+ÌA<Vy8E9v‹Â‘‚˘zFoRPolR.TTwt6¿UpHo˜ZK-NÍ3,WûWAd,6jqd.÷5X9sûLBŸf*3Rbü’n@=G„AU+LDzUq>@PK—’MOﬁ‹Zû˚@118qu’a0tvMReq€l?’1ûdpº:B@OtP˚F„x|5uIÈI+-y+Q|us`+
+`s‘@B¸JzBs“mzRZ2U5FˇQMi|rui|ur>*IUÙ?:C-üG;?SrüR¯‘w1f*+r|7zr˝K@RZÁÎŸtFS|ÂP|XO>t”2r1+5Qg|6;üüıEPB./ElrldAU1|JHq=+w51n5GaeOCQE/y4‡Â6rÔ|-24L1˙l2M.OZ⁄MZKZIZeüGbrd·Xa.Xsq/L7,G;5Ah3J7H7h?|z9S5>ivirn-*üaNıdwKKGupsÎ*y4qQZZTzo/CZûAq6|3XøqI≈¡2J‰z`+
+`j’1ûRûGûƒ≈H<jyû:ºf*=vP1GvÓybÒ˙7-2ry1l,7-+rVXpo9sy@5FQ1ûbüü=97oU1+rR3ür9RvDzoU=UDrv;wX32x8|rq¯ürU1ΩOûBüuLWûe8Zû|*?A-yhû+Jeû<5≈5?RoM.—ÒÔLIZû‡˝Úm?m+yUB+Áv“bﬁS1w2jO·3ûü<Ω<vg?Avwrv6a@bzPnût*uyYx01<RTw6syu·PV8uaqnB9J-tA<ÒOy/E+,-oL-˝0xº-zWy9`+
+`NZkzvü|+s˜:üd5º.v+qj0-/Ë5Me1;*0<sR.pH?0<XaxX-oh<HihGK57@yb?∫.ªSDÎFt≈HiÛV0qAe+c+m3aÊW;utJoaGuBz2wW+yT0z<6søÙ20C2ªOZSjTOZqkûborKÙ.><2Bvd„+uv5/˜˙ÒΩ÷A=ΩcuxX3yÔ‚a-ˇh?Áÿ≈›÷ZIM+HP3yª7qR*ΩÿibesaL◊ü,ﬁy,e,9+&6a&d‘ü;K:∆9+C?>VbMkS€Vs,w01€*pQqdqJq`+
+`ÍQMºYx01‰Kr9M=h¸D˙PXaPfi*ÁûbC?Ju¿”hv*phJB./EzoLûo2@≈w⁄*UMkDH?YBaEzqQ¡gUÿ≈62Gp˝ny’|J;sJzvBs?zz,4/J,nc,aC˛|zUü‹VLuM-HnLj8∫AuIzX2gBybevnvqA0:Pf?.PfkwVvU<Â>q=hΩvvÔM+GtoBibJtÎ¡M.oüˆQ*øB0|-Dq∆7Vs646’¡UWbr‘B*@“a4p*6G2û:cOŸı:ss;Aq*6azdJûﬁq`+
+`|c4@GeK‡*,lNWEsL›:v|GÒ<v+dÿkûı:s40EAorLrÚR9o3j-Gsiü<?imLxYoX@Ûky‡ZrOG∆÷r-c:U*Ωl|ED∫Xn¡ib4+Xix-*vXzZ6Bq◊Y6vwZtƒ3,5zR/Q=w+,o;qGl,Qbb|J@KÁ¡÷qiO=5Mkd¸M-+|J3=VÈ|rTw˛otGh8:@XQQ·hvü7zoºSybxGyzoaU:uZ.hvPPºSycûpMs7uDeÿM+q:nGj.X;PÍgtO*/üºrs5|l`+
+`Nt2lNÍ*z≈s;ZNJz∆~6aqak5ür‡Î‰3n5>≈4BahaA5ßßßùï∑ßõ2fhaû)3(fü#v3r“ga(f;)0,73-—zvıŸGQl2YûevMr>sP-NSHürp÷Óº+JÓsLû3a3|5¡WNQo<2ti|RtiHMC=DMUDgq·Yn∆ø,‚,F*JûPwsGªHVKrfb-7U5dY¿VR=nqsF-Ω-3cq∫PˆoDVR‰Wqct˙d4a(be,jxcsbb<HºGhx2Q-Ts33VR2rûrjvpq;nGpËU`+
+`OC7F*DQh9‰ÌÙ‰*nlN>tû,ün:->A≈Wy¸ﬁOo›CAr;gBWo:uWVÙe-T4ü0Ωwp6OªzvÓ0girTwmzZDc5∫lOûBü+*T|A36oZ@˘J:PBwtˇ?B.w;Zv,⁄KAdP7zc0yb#Á∏∑∏∑∏a@-Ò>Pyb-xBvOp.>VpGQ3n.tﬁnK5qusNS%3cDb‰9rDP¡;s˝“?XÍdq?<n5ü4roÍQ>2sIHÈs5YqmFüv3v;pkA=rEz◊R,ÒQ7Ë˘ü|kdvAnw+Q„Xr`+
+`AQ5qf0˚QpÒQE+Z*FhSÚˇ:ü=:CqibPWSsø<rF,-wWOUOef61F-8ûVp=nNASwFAgpn*;3akaC?‰ÂpJquq3cmapoFt=:wq?S*/|6a∏∑∏∑∏cøL3Eü<u˚ppb@o:Î‰8uuE⁄Ô=,=,mT9bAwˇjyp?>pTAƒVK.:ÊÚh34wLu+4qk+2mRM3L6Íf8V7O*CwS3lOivEfevs:‡ÔªU+”‘<qCøQ›¸fUCwÌªF|jO›lDov0D8r;wË<∫4¡|W,`+
+`-|WktƒBafw◊/yoDfUru<pNtÁZû8T‡ÎC?ÓVûü—23n-|>tF|f:aΩıXuÿgJ48“lDQZ’+AC?j-ÍOû<G¸-ydM/n”ibL3yu·F/ﬂXaoVe?iAE-.0eGIJmdqWoV6Abb˘NSbIKb~byD€oV∫tv<gxTQZRnvDÁRLŸGuRuoDV>yb3R8rOqq85t:Szjl7<WUH+v—ªrqccŸZû=:/E„LC:S;üGq’GZy4ouVBoVZ6‰6I<vacO*+|KuvfH`+
+`>(ba7d?vS?a7S?.da,43?4õha(f;)932A4.ia(ntnirpnt41da8¨t4‘a)T5õ97õ97õv3l›<WY*W*V6LU+x¯Zuw2wrvooDw2Â|-X14z7AÿŸ;qp+wqüN:Sog‘◊ƒI>9wzo,4X:Xrü<<7CsKABvm22RÍFGF+hgYqWqªBs2UsNz|NSXnrsUqZ0cr,-ŸcRGvÈûb6wi3csaJ<8ySzÊ;H6OecR:Is#Zisd|Cü<hXyrM.OtMty`+
+`bEsP≈≈bRodw∆;1s+9pCxF5Ω˜ûp|iG<”Ì·Tz*n7@yba5BaK2ÂdZÒª+-cuEKQH¿-5+5û5û@.8,2vÎ;PºbtHQFgyƒFXqt‚ÍZR·4+,|*v-6ojNS4+Nt*v-6∫:tuo-yEn1|CDSTWnËCDSTq?/JøFXfgUj56;-ñëf“(é{61û÷9bwW∫|5og7rLplü<qvzWs‡7,zoW5aLc:=uΩvFjT:iybn;ywP61@7VÚBWfEM.û6pKøbtH*Ss`+
+`zP<7·8I,6AbFb’˚:qÓaqSOÓqI≈„j0.VÍÍy+˜ËYu¯,z6;Í‚2+VûÈh*gkRjÍÚºnyA,mF5wCg3rüt5y;67Vƒ;*Szƒ7VÚcAGhgAUq‹PtüfSqM9p6,SPqiG’QrVPº9s„‹GhIP3yn=ziüwo3aAbBü‰.w>ybbƒ9+ºﬁh?Á,DM.OZ⁄MZKZIZÓGZvGp<y1/Ezoe851ªJu›B1-|˘J:Lu<L267CR9÷-y3OÒ=uΩm|‚?6hwhKøJ3R∫`+
+`;JoaGRûd.ÔΩ8y/9jqûbkKCfm;¿Ynes4=J:LuS/PbvdOEbdRpû6JH˝W5”.<ÚpU◊OEBE<mHy¡Ù2-YMJ3uv*rS9ø@NÛ7C3rJ:LuTHX@ÛqüA=‹/ps>Êl0o;GaP:*yOr@NhGY:R4R*2kp.ÈJr1|ªDU;Be67CR9K.Yn46ª>:8*+‡L46l<IuEsNv<6s7F5M4/UR/5MEczPÚˇqPbrQrKkÿUpW“5”—l?ytJ3C=*p∫7,VSf3lO<`+
+`SƒÚSoK0Q>—tuLB0üm-ûvlC6=PfDM1H2xˆƒ€˘s=Rnhz.zZH’Ÿﬁ=vstAW1ûI=z6∫dcz91‚;su5c,sGAU·ngS3uf0ü‚Q<vGûvXMûvxq∆rF*qWoCZHIp,Ut@JRWqkjüNJ>wj,|OlyA,?YQ7|iVGnQÒXa+5x>Y|;1j<e1r/@P5ZÍ⁄,ohEqASsø;1j<9MŸcYMfqQ˘r-E953mP:-Ì„N:o,Tû56=u,P26’˝x6÷V5DMÛJo:u˙Óº`+
+`QuS/=vP1KAqsSj‡D5∆¯ûoz7?+.weEﬂ¯MuKuûoz74s3rEU-0Ù2mO*ˇ2xU3I9+dfzY4d4coa2mJszoº¸ûbdV8@iŸ.=utr,ls6sbQWCVq<WW.Í∫1Hdw0|a0gy;pÎª0D/F1wÚ+r¸ybmz0/8JvfJJÓgvr|?N0z‘kyÎød+?19wÌg1uoO0i5akc,|CHt0TûZrªWy6A+,|0:uib58x*OyÎ∆FXkuYwj,ƒXamonK-,56XES0Jdhv`+
+`7@”?.¯YwkuB+LqS|RWﬂ*qAWÛŸCgxTxquERWuZw2<nvo“bb¿ffFw2@ÓIB0>l|o2∆uRJ2Qiq.ûi>tÎﬁAye?ªV6>tuZw2u,h9t0·.QûU‰SOjO5>G9aπdBad7ÂQy8@BMAp;T>9øpwuRJ2ZpÊGA6skdvAFX˙:>j0IsGs:9fbXo˝-0a1*q/0◊pU◊Mo„0sûGÂX*QHW3ûnF-ÔRwhg?UZû‘h9VûA=.*nyW7tuŸı>t*pºGhH=k=`+
+`‡Û≈ûUGKivEf>t||5N@stuoDûGÂs>Û≈UgwWmv70XrWuk=‡ÎRoˇel?QoBr|vDtD—k=fbTAT-=ˇEldÿ3Q∆dwj,UtV0Vsny0C7u∆ÿN7-tqûR;ûbo,Opø91WO’¸lKgy—hDwX∆ø˜mxCH‘O9i˛ndmg0VÌÔpzZCVDWs,üwsËZümA6<X4;sWD33nKΩ‘RZVBÍΩ5|˘rzmü<Xô),òn(ô≈„G;QQQr8in-<H,ÈÛO.ED.UΩgBGhx2lH4-`+
+`ApgrΩex>Cƒ*z49j:Z@G;QQruH8MH2-c9U<VSZ//jH=GBEXaª—0CEüºi“G≈ŸJTÚNE0Q›Gp˛CüR/nqRo*3ûb‹ªFABaH-WnScnyŸw,XM:>y1ÚEQn-Rj0CPºbuo/|@K◊X;.9RDQ|yP/Mÿa0-M.-a’€yuÈ6sø3xQAﬂqA+dv,h+˛zoºÚjO>nW|e;agcp?WAHûWNÁ*qûUgBXrª+Bau÷Òoû:@q,˛H8˚˛LCTAqtMrT,5;5toDd`+
+`*›tBI>=ua5=ufbÁÌet@X53*NdBJpJ1Irgy:BnûUI˛÷„bP*NdB÷Û.z@Xgh>wû:ibƒ·8qD7rM7+.Q7Xxq+eÂIrH8‘Jy.QÌÙCwÌdSAAX∫w@4cŸScM.vz8IÎAqZM„M..d<hoDPB8Tet@XÙ÷‡Kt÷4?wüümøco/ULnûb˙ª8/5;|;5;|;˚l,pM:@Rw:@RwVFK@OyÂ˚e3adaxXC8Hbe-JPQ*x5X;fbs+y‰üvf8za5*N8*1r0Qo`+
+`qfqøW<h*/3f8Pt|*ÊuMz55NbbQZyb·yb¿;ü:u˙∫u=üv<xCQovMûy:+NAu@.d+8w˛F7s5YqDfüv>nTs“‚boRZ‰Wz|M8w˛3t‚4rSwKN6:ÚnXÊa;¯lrCT+rcÈFoV4v=qu>ydûbcoXrd-6tXxfczz¿NS49ÁqO48GaeOzF·cûM,w0<WT0f7eE<m/üF|ib@1üdûNz2<WK-K|ÎBûI9*FRt;sLı,ﬂFq;Nl<xq*yxSYXMLÎÙ91ø`+
+`h|J1ŸÔÒ:q4oˆ.X@JJ<‰2tJ3›ÔVv0|7ZÒ2UZû/|9bøÌ÷urRo+ZqW|ZjüK1k-ΩÚdo.*¿opﬂl0?yX4ı>*x-LqVvT1+y+U1QΩ>1>+M9=uu5⁄.8ÒÛZIdAG6F1Mt≈ib+o>:CUeqew2JÌfbF=Ooq3‰0|”˚?NU6Dsj:;Ìc⁄ÒjO..gjlQr/MGlplTBnj7l>€NyeoSzApcUZtÌJyΩˇYqR*ÌHC5Sibº4Rl-:y.Ux>ML-7mPqO=h>P`+
+`¸.-Ô˚>/Gag7⁄kTVh,CiW≈fUm3UOqtK9ÈXaCweyq,tzAwBaRy„ST—BU:üGhxsvs∫.>RslüPRUOiGs5g1ΩŸtv,n5z/XOûOP¸ºdzdnRT?∫+:tLûBWnå“å,2î}ÔÌaTCPÂfi|Jvh,d/CÒ.*/oüTXvuRbb9sGt0jHpÎbGC+Po5+kg*g+|È€>@·Ÿ◊H8kxwpııAu=û;û?*yN2J=QqQ‡¯S3·SwhrfbüfIH¸G:x,Ûf001*48yTü`+
+`*kVRtFt3UVI?2+MOƒzu-yr+lW›‡wq1K2mMO·zu¿-:X|uMThû9uUEUfUŸ˝kMF5ÙQwBaVR‹=rGyHI˘@?yusw.|8|H;fUZ.vxüw=+Ô3zv4lt˜krEz|iNsEw¡ŸF5|Rkyv@+QˆüT5QoüüxS37M”Iq9û*r‘a4ûpJsJr.deüQcF?9b-yCg:sQF8I-.8I›bo*qtRqtQyqw2@06fU4zÿeüL|-U3ûfbT1q5PUmq9U033x72nUuo4`+
+`=Ga/PGz˜T1Zznw;TË˙<z‘Ÿ..I¯Umo,g>nvwŸ7-‘oNXO/nV0Ba.>øÛBa—ibTwÓÈ0t6xü|ybB-ThT2üQ-nnULnboÎ“Sp·Qq¡U*?x˜pF∆fbmpfbøÊOFbbW.ΩpBibnre8U4G-E-¿l,GûEDKBb4„-4ﬂdAO0ΩV-e0xvgchK—EwMü/glCKs6;◊=ryv;wVoBaV71MbxR?|i8I‘/qaxtDy,9b<yºbbms+5dS˜>SlOrFlBhpÂ¡0s`+
+`Í?Rû=ÁFK=BpM˝ÿ5Pƒ1=€ËZ6˜:0d7<7:Q|faxeK⁄8sC,0+Z.Y-Tp8*70‰∫Ip2nSIÓÔzoG-∆*oıU+ûi0Czi∆zo?x72û6M,HpË<yªloRnil-K+OyAü91I*?2G5sOFW;U;gH6K0xM++g‰ˇ@∫4ı‡6sMf9bzoDQ:@ıtQAvaiKOT5qu‹0t1ziüJ:Á:@9w≈sGRyzzwq9N¯*ü+qtsybtq’Vs˘S3vq2û‚W3F6pQSoÙS3DAQHﬂN1=`+
+`û=phctvK-h9ƒpQ+t|gûrür4q÷ü|˛yb,o’ûbﬁr@uMCwj<R:KAIsBur7In‚6q.>c5XaÎ2*9bQ>dx0x:uÙMñë“ì}ûbﬂMû<s3N9t∫‹0ûiu—‹∫Gag3i;˜GsˆYNiu˙U*YNdo?6⁄fbybfb€≈Qr¿SD∆ÔU1Thv.*O-pC.t3ütixûvMû,6EPÊ’;pOFhv‘ev˛S=o/iJL31w.t”‹z7ytq?ˆCz9b”@.l?8wªM,≈y@IMe,ﬂzo¯≈osXrh`+
+`JBaQr,rs<F|zP˚ﬂ5q@3∫qPlP9biuÿU1y8@nu=Gh?v˘ENÌxJ+rbüHy¿ˆ+y0Cˇ*nW;>O@|+oªJû˜KM‹˛W5POz2qN2wuId<ûbû@fbƒj<-w—ûb≈‹Êﬂ+J36roazf*ÚOûiyA>zo5r5oWNs-L4U0ˆ9sbbV;T;|rHp86zFÛr,LyÛcqHpbbzuj/ybÎrJTh4E0I*MApﬁe1C=nû€ˆ8u|f@yPF‰fbYM3owtj-‹€◊q5jüY*/jHKÛ€HC`+
+`7o‡ütSNÔU+5rÌuJÊT05r>n+5k9q5ø+yÚ„gxC=Ùs5W|Su1Hª∫Qrÿ9NÍq5Ûﬂ˘Ÿ∆p6‹H,=û72.<“tvøs2@.ªMûvDduK-⁄uJ¸Yq<FMûûv2@˙ztfbh.∆ˇzj.<ZIÊ-=57eGJû-DÈIM÷ˆ·Ë7zIMXtuJIdˆˆﬁ<u6tu-ÌK|fb”PK5MU0˘R7ˇnk.vW.füqy6sP-üxºqslvghÓZs8u?*Xa?<Wn1|F5Am5G+K*q;xG8EwRvh9‡<xƒd`+
+`xG<¡@-˜6x*r„fHM7K69Jvx82Aw99ıQxÈxyŸ6tÒ⁄›aqŸybı¯5;-t⁄¿8LM=-:øRD>1,H614LUg0t2tûb¯s-+e¿FAOy/|∆0nz*?.8iÎÓN1¿lû7üFKGasAmIAK6*,@ÎL6;2◊w+⁄Ω˙I;LBXaW9‚‹ˇN∫wj8FANKfzSü.p4zC,ΩBaVvnûjq9ƒifbÂ8IUI˜„yb◊+yC?Y*zoÓ¿˚÷TyÚQD:qfb|J*puoB4Èlqt3˙hvEp4üS,D7h1`+
+`ËfKÔ1u6G0;.IBt9y4DUIyCM.hJbsûpM.pF,xOyQGÒˇÈib¸≈lI-6∆A53.⁄M?Y2,xV;ûbopO“*◊Î˝,*Ú;yC.PcD5ΩGa:,EHÚÁS7-o+o1AAJ—/|Ôøwouoso9+tBCx˛XaÈs/˙0rZuÍ˝MoˆAyv4ct÷s;B|9bfHt,AuFnDnBn˙y|<nh*c:Á5n:+fc¯l3?FKrÚ€ƒyG<yEIQHm;Ÿbb>uhqÚTI˚Ëpw.*Y7ûIeE3*Xa1*8ûÿÂe91`+
+`l˝M9˝DyGxËIz˚itgtMûRv>xÍ6—bL/wpibVhüA+C2u3G¡>wNF›13;sº0:XaRvhsfbº.8Cyƒ˙.??∫b|rj+tB„¸˘X-A;W;q31.I7€Rvs<fy0wÌ˝JyT0ÎNqVGO7ÈM.whÁƒ?+Aw1o/o˜ŸAw.p>*Z0Yv79˜4=H84yT;j,S*C?˚zo@ûÙ>û<ûNGÙ—<4ü<68RCUt?<l0ywBtŸy-Kû,xq?‚=p-y*>üv¿jvu1Ùwp?.≈q,ûn|g<nV`+
+`>l5=,Q,s-Xaa84üy/M.ZE>GÓÚuEj-⁄.3FFOC¸Ëu>+e+vPnJAÊÒÙzoÒ/9÷DziüAoS+3E/;1EÚQETpNtUDÊa8;uS7Âyb‘˜¡ÚgrÿawN6Û“ΩY2k6lûytÛû,9-ÚÛ‚oDxqø>@2ûIov8uvMqJx5Aﬁk<tm=|‡›Ì¿9b„?E+A=EÂ;EA>XaZü‘yq0rŸk9¸*3-9‰Xan@∫Òw6Gas*wFps’x>N=·=+lyKqtßßßùï∑ßõ2fhaû)3(fü#v3`+
+`rga(f;)0,73-cÿ’0tû-Ò≈L8J>Z6.v6xXaX;ÈWzywŸt<›.|Ntl0Df8o?+lp|nWzxd’ÒÍp?Ù¡˚TwO≈i8n∫|xŸ’cA6|a5-yqz1B;o¯Tü|5-h—5C.:F5A?Ê|g;tMD9bﬂQqu5il1;zAy.ûCÍybN:3k|glCi>yCUqutivI>JBe2ScøiBMlK5Jq>Dnyp;˜ûbŸ/CÁ9bÈÚªToÍ:o¯€ﬁrå“å,2î{Â÷◊ˇ˛ﬁB7vildX3„aiq>wümpw`+
+`o¸<DÍ‡‡Pfnpx6=w>wvuΩ:<y4m9r5ü<4-MpÂxqMA>+zo˜hc,-Ís+„¡HnvgpB„?y¸„··Ωy4Ω¡‘XupzrüWq”Iy◊bbjBhBnyU+’k=˘@sÍﬂTB?yHpFp48PBJ:˘˛UÔbUüH<MuºT;·›—Î@s‘fC|0S0·ﬁ4zh:W3;5ÔAvÁ1BP@nh><˘Á€Th+?PzûûxAΩMlI6˛kxG8twpB/-ws>uS0€1rbyZz„ûbInÒ◊b2C?mw⁄-tˆ|-T/JB>v˜`+
+`:>—b2rz?k˛xB5;Qy≈ÌjüBaGak3Mp;sUü”O7;u‰˘P@ˇx+€Û‡8xIr*s5+û3iû/yfbﬁwqeAgûIr+rnyx/KuhBj8B7@üdu”ÛI+gtB|ÂÛÎMp˚n->v¸È=:ƒ˛kgM4‘O79AB7Ôrm..Ò*w:7ıst˚∆‹s;∫È3rS3*p€B,pwÒ˘⁄3nibı1,asŸüs“˚ibibûb„7qiv¸¿Ku/1,xSsS,—-og|Th@0*û>0û?,,˜-.r>j9UûÈdsp6˝ø+h„`+
+`/.<njyÚT1R*Êqûi|ºEp˙UnT.Y2UjEpjü4+ÍvxGüc3a3˚Y2ib;9>4>qM2j/D>DpB>Dy∫cqduIrBa3v˘˝e=Uja-soÂ◊j8X,5v..‹S7Ko≈Ùm/F6€y+>q„,z?xPoibN6YjK*˚Zü-:E:.rL3qsgr˙¡G;Ì¸¯›MsPwDûCnk>6<q-<uCpn.”,.Îyb∫NpËΩe=9bBayz˝=+*ü91h?0t02:xÂn9Ó1-9/so‡ﬁEsTr’”Z.Ô0jilü.`+
+`|9/=0nTySü*6I84tÒm=X,¡I>Ú⁄ƒQ9ø”l2T4l2ﬁ¸8r€Iy˜zo∫Z6-tQ*.˜bjp,/eta5ÊEüı=rld:<jzhz—fz∫?Ë;ÎL+B8ÍR;k8i8ÿm*ib˘6Ëtcz2kƒd:UtctatYsWsıx4Y*:rj3N:ÛQoJ<‹‡S=sq˜8ûƒGhj2Gs≈O.;ñë“ì}ibmgr1˝5t<ngrOt-üo,ûw;;DzHp+3Q=Ë¸y,¯X6‘ûbΩº›7=ixe=2x⁄6w¡Po1rﬁUgÍLx>nk`+
+`zZzq1A4¸ˆ-=ΩZzoq˙j-Baˆz9-;ˇ„ür2:30—4+Pfp12xczgrkz˙3xÙQ7Í1ürtƒﬁ/l◊8xL/B|fi‰:xﬂR*||iü˝RnCg.vib6<Ba÷‘suAx.3wqcrziÁO4∫Qy9ûk9Q5Xu8r”..ı’2w1.Í@∫sƒbl˙-<57B+Ò1rÎXrbbÔg*Cg1wngq5ºD∫dhvDx7onrı∫Ba9b˘A5Cwc3∫¿’Dw≈-.Nt∆Dw|uf8aw>qQobbˆÌBa˜7üÎÈo0<o,|`+
+`?3ppwpnyB2⁄∫∆Es<mû-ü-1tx-6o-wz/MqüwS/*w24Fz˚„Iy5y1uP+?0Vhx.z9WnaqjqIz·˝l-W50/Knºa5›˘Gyy/‚‚·˙-ywxÚŸR6;rfgm|J3ü6”‚ˇltÙG:3:Q9sy,wﬁ/j+:V5ΩG6<6ÊÛR*L4,y?xN1W0rwø7üGae4“Ú’36G1aqys6xR*∆-yz:Vp‚¡◊6sƒÓ//ÊXyÚ/ü,yÊib‚9bs3f1@|4-Xa2n?2Y8u1j:u1Û◊oü·/`+
+`ta0P/j3÷müË¡uûÍfb¸ÍSuuv¯’Kq@7¡ˆFz≈∫bbÌOrwr.rﬂ∫IzT.V/ûq:s¯CpV2Û›◊r+Q*@7ÿD5Z8NtScº¿ıGhyoilQzS2Box7W-5*Û9b?4O2doY-W-ÂﬂYnø57zo—VpÂB+ÊBa⁄÷|i*gXaÌ41Îht∆:t8yx6ª⁄>4G|8oGhûtW3LuÂËiwL0qwzj2/?3jüÚ˙üwExŸXa@û+rûb?wEp”w*˝E-VoN7Âeq-tﬁ0xÂsyat|6ﬁh|D+B`+
+`+ﬂR-Zty,ÊT.ËK*Í6üwüÿgh,,ﬂª€u305Mt˚h1’D5È˚Ây/◊€‰Jp„¯ﬁ0,U6jtﬁhtQu≈˛≈˝ª6x⁄kp:sCgŸwvª,x+nhwûq’S0CpQupw›@1f7¡˝€WûHû|r›ﬂVhv7Brh5ÊH5º”Ÿƒ;zÖ“ãå,2î{bÛ⁄9b‡‘;,xtˆ;29brv:vQx‹Baﬁ1zøzompmpÊB,‚wü‰kû›;üq*U+¿‰Ó˘ch3re6Dn—›Aq2m˝’XaR5˛?.û,˝˛ΩS∫6ªw6ûvˆ—qw`+
+`¯—˘Ω’BqΩ˘/yAq’÷”v,Ôc,üqehp/Z.e6R*k5ZbÛ˛:-€¡u1BaR5A2˝ÙﬂÙ◊Ù›RoPoa/-sW3⁄NqÌ;ptoBagqÚ.drq≈x0CveûXacû‚a5<*2se-1ûKkC4ıÊUy·a1EwGxΩﬁybib‹vxƒW+8rgrZzΩc3˚ˆ‹zj€Ô8rRn¡mwilf5üûQ2ÌƒybÍÁ.z·„syEgƒ¿@ü‹.zM+¡ûg€¿a0<y:y?.Mt”6ydr˝‹9b‹U|S|N2L2J2y4FndxFn:vh`+
+`sF2O|º3nj3Posz€∫+r¯MqËøCqÌEgÙ9bQy¸Ú˘q,X*dp+*ÚıR,zvpw3pUtGh|lΩ€‹ËcdSz‡ˆSo˘ºÈﬁGvLnÚPf⁄ˇdobbJ-rñëf“(é}pûPi=rs0:x,yB-Xaf1;.ûwj/;-.dfbˇW-˛ün‘@yfb˚Xa¡|0q|Ù∆¿ppNqL|·9/÷fb∫Ê·Cûﬂ<n”np◊GhTtÊ≈Ghd≈tZs1ûøﬁ∫;s˙CpﬂLûil4uu.Q+<0T|R|Aw‰˝¡fbgqhs‡4+G.—Ì`+
+`y/ˇdq@û*kMfÍÈOtBû‰ª:o+dr2ÊBy1/’lpfjqk”„PodhŸPs˘jy”‡Jnybÿ„›ËÚ‡ºÍE-˚k|X1ÓT1‰?s6w„2ûMûmvÔ*0‡˚‰<vOr2û⁄dp¯ºybÿ˛ˇ◊û,Ω‹1t·Yx.rÓ9bΩF/D/‘60¯/+1rÊ˛Ú;üt1Q*Î÷0jﬂm*qiWwk1F+s/Jnﬁ‰ˆ;ü’Ú¯ÿdpÁSü>nqi3o4zQ-z-∆∫ª¡IzYoG0Î”Á÷øª˙È—-y‹8y∆qu˘ÔMfHiavgøb*gr|I*`+
+`Óxüilzûz.1uNzR+|-dx>q5+„∫So‡€ºgvIz—boU“aSüh|¯ª∆g|xyûbÚrsmpÙƒ*gvxTq‚Fs=/ÓQw·‚<üˇﬁÎ0vÁjhfb∆pwIoBûƒMf≈øΩ¿<ûÍ=h9/‹,y5/3”o@t·Ú˜F,ûwmpªFsﬂÁvg8*ÂøtwGaNûÔ≈Gx:tfbûbzoƒ‡fjIzËIsBaHiSy˝È<û7osp*nÌÓc,◊zoib˛Iy2t∫ﬂƒ˝Si?tDxZs/lª˝Poûb¡¡8w◊Dv‘k-<oÙBa∫÷`+
+`¿6nltP|ËÔûb9bbt¿ªÊ˝Ωzo÷?|›;-4e8s9oEfdoı˚Á’fb¡ﬂøruÂfb1u+ûErTh|ûil@rOz=op.An0vzoﬂibÔ.rı5y,,‚;h*xOyybcrbwIzÔƒ◊‘bbøfbÒ‘øßßßùï±Øö†ëf“(éô´ßõ2fhaû)3(fü#v3rga(f;)0,73-c1Òpz4|≈˙ﬁ—Xaø›BazoRnÁøGyËAzsuMw˛˝˘Ù‹‘otËˆZrÊ⁄Z+’Á¿Ê-,ax˛Ávw”=r‘H*ÂX,l*˝˝Û9`+
+`+Ksª‘ÛˇÓzo˘-tHt;p˘›<ûûbH*|gibÁ9+Ù∫Âıˇyüwü”zo‰Xsjxdczo0hÓgxSü◊—‰BnWnUnÿ6rGh2o7nYwibKtp,9oÔeqÂ4ry+2tÿ˙ybªΩSpËwp›„ˆÍ9bÙÛÓ˚‹ÁûrIr∆KiE∫b,nwp;+∆cw˙ÿ∆◊iô),òn(ôw3edocz·Am4aO+/uGryû∫◊d+,hxw„ff‘fbJoHobbﬁ›3pËXaÂ›¡3nÊ¸˙¯ÍBaÛ‰—+r∆˘ƒwpgyFtûnΩ-rx*fb`+
+`9bË€›ªÓûbÒˆEw*y˝R*Xarw+y¸÷Bvibﬁ˘¡6i|z‹XaVvTv˙ñ)“:ì{xª¯ˆG˚b7q*s2tQyÙø€Xa‹-y÷˙ø˙3t„fbAnlx˙7|=w›Loˆmw0üDx=rŸEw9û˝fbﬂÎqwkt·Á∫gvBa‚EwÛGhizªˆCsﬂ˙ƒ˚‡RnÿªZz˚Uû÷˚?kGaVwË2û˚Ò€zoWyºg|rkGh.ûªº‹¿Ù*rrz1wib∫¸Ba¸ÿ||ø¡≈Ó¡øø1ûrkGs„Ÿ‹”ﬂ2xﬁ¿AoMzpxjl0u1uJ`+
+`mLz3yΩ;h◊czO—l¿Âª˛˜Èˆ-yÒﬁ˝W|Lu=rıfb.pBaûb÷Èj|˜bbûb∫Á‚XaDqbl€fb9y;p∫ÿÚ0zÔ+sª÷¸Ò‚Mq@pÿybhrbbÓ‚ˆüs¯Ë›·‰ı¸Qy;hºXa—>nrzvoûqº9t4tÈËnyzoGü◊≈Ë„⁄‹ﬁ¯dw‡6n‡hc∆„fjRrWzÒ˜≈PüId;üÔybbb∫˙ÎvxÈ‹fzûbGtzo‘jü’np˝wqky˜“‚4vgq∆pifyˇ∫btø¯ÔVnwv‹zyË◊Fnˆtw÷⁄˛N`+
+`yYt8uFs˛◊˜∆ıÙˆ¿XaÓFlËˇ‹Uugf˙‰Dfºªˇqt‰yb1utxDooxrxilsxª≈ˇfj’Î‘¡ˇ˜7ztpﬂzzÙŸ‡>nBa∆˘cqË¿¸3x˛ø‰cz‚kx‘P∫b‘NtCgø1rÔÒÌı1h.oﬁrv˘zo„‡DyƒIsÍ’üfÚ,x+w‘ﬂ‹ÿÌ∫X∫b+rÌ›9oibøXa˘Ê∫lv—˝‘XaˆË˛fb‡·≈ΩÊø8l◊˝¸‡<vcyayÓYxƒˇøib2veydn—ny¯lyjyª<r˛ÓˇdnYo—co¿Ázo`+
+`›Esbb÷‹∆JpÌT∫r¿„Âywww◊Ûlt◊?w˝ˆ‘¸:u‡÷∫ibÒib˜”lxfbÊıXazu÷ÿΩXaÒJwÌvx3wºzoirº∫3w·‡‰ÁSibbÁvxfbBa≈¯Aoqx-uEm1u3uDr@m¡Xaˇ˙9bQpûb9wƒ¡Jsˆ◊4q‘UjGhOwür˜Î˜ﬁzoËVq÷Ê;t*qEsÁûb¿·Â”Eq¯DpBaÓÊso‰3w1wûb¸ŸzoûbN“aÿˇªAuˆª‚Ì‚ÂLq¡Ê◊ÁﬁË‹Y∫bªib∆‚ªXa4eË÷·R∫bÿÒÓŸÎ`+
+`·Ba›ˇ=r‚Ûﬁrpbbıto.s‘opÌ9bıQigqŸFpKk·È⁄˝ysø‡˙‹utøbbnv<qrp·ƒÎ‡ÿÈ>uˆkv=q∫¡›ﬁˇˆ”<u‡ŸÛˆ„<uÎËÈÓ∫ﬁXaûb”º‡Mk€¯¸”˝·⁄Ë’Gu‹8u≈ı=p¸◊Ba¯ÎıbbÂ’›JsHsFsºyqwq”˙Â∫ûb·Íûb+g1u.u?oBmFrCrAoEo?rbb˛Ë9rXrdu◊øMt—ﬂÿXa¿ÈybÓÎkuûsYt·ztÛXoÙÎÿ‡øJd÷ËÛzo˙6tzoÂÿ¡SiÊÓ`+
+`Xaﬂﬁ∆˛gq˛ƒ‚:trtÁÂ-≈b˙·uf÷¡‡‚zj|t≈ÂBaÊ”Xa‡5oﬁÂ¯zozo˛˙—ˆzo9b⁄˘Mr‘ªbbXaXa6oEp¯˚9bwp˘Íªzoı˝Ba„¿‹ÌÈÿ?qÍ€ıqrÔvg¯⁄¸’∫Ô◊ﬁÌ≈‰¿¡ybÙﬁøûb˚’È“¡˛ˆÈ∆˝>qürﬁirƒfb,rXaÙas.rybydzo·Óhc¿ˇ⁄È”ˇºTrQqﬂ‘Mf7r˜FqQr¡jhÙÊ|q˛ı˙€Úbb⁄ª¿ÍÛ˚¡‰”ªª„AmVhArHmAoFmThVh@oCo`+
+`Xa∫ø◊ÿøı¡⁄˚”Ωˆ‰‚pp◊˚Ùºfb—¸⁄zj◊<q˛˘‚Áﬂ+h˚Ef∆Óƒ’ÿzjıÿˆ9b‘€Ó˛›˙zo¡˘Xaﬁ˛BaAnybbj˜Â˝ﬁÈ˛ÈAnÎ‹ƒÍı‘˙˛∫ƒŸÂ9b˚,o˚›‘ﬁÓ¸üfimib9bÊûbÿ˜Ê‘ro◊∫fbÍ—ıUpSp∆‰È›ÙÈ„˛ÛÈ=p;p‰ƒÿÎ0oøPi¯2nıˆ˜◊ÔŸ‰0hˆ˘˜Á◊ΩûbÓ◊ib’ûp≈9bª”Â·∫ˇŸMoÚËBaﬂıtcÂΩÔ‡ƒﬂ8i˜Ω‚ﬂﬂ¿Qo˜ﬂ∆⁄ÂÍ7iX`+
+`a¸Â1hŸˆˇ‚‰ﬂˆ÷’yb—˛‡Èﬂ1oÈ‘Ìﬁ‡ﬂŸ⁄Ê‹’ÔÊ5“bAmAoll>oIbKmDm/iGm˝—⁄Áfb˘¿⁄Ó·zoÔﬂ·˜ªŸ˘È¸¡ûbGaNnÍºÁÈº¡’Í8n·An◊⁄·gohofodo¡”·¯ib⁄ŸÁΩ—˜ÿÓci˙ˇﬂËGhqbIn¿˙∆ÈÌ*h˜ÙÿºÓª˚⁄‰¡ÁÛÚÒC∫bËohÍƒË˝Í¯˛⁄Û¡¸ÌÛ4lrn?lXmQmOm>fXmWl€6ghn;aemVlOmWm0ªnºXmdmC∫m6møic8a9mxm`+
+`ylRmÛ0lymMl-akmIlGlVhImnlThCmAm9aAmAmkl4aol”üf-arhƒwh|e0m|mom,mwl9aÛ‹qlOlzªm5lSl6j:aqm÷A∫mnmÁ?lPlZlÙÒºemim6lem8lxlamdmÌ:aÁ8aXl∆7l/l>l9l*lAlÌqk6l|eJl˚ül;l|l2lBaxl.l,lË≈”-aJdHdql:l1l6l4lSe|e-l3l€Ì-awl8aûlülÈÙxlıvlHatl9a|eul‚8a+e-aÿDfql`+
+`Xk8arb8a>fVhmlThil3a.iilUhQk1hsh¸-a+c˚‚ƒHaqb6aqbüi|izi5aqbvg-affÿ˚‘finb‚XhGh=g;g3j:k-kjj€?e7j?j€vk2itktcBa-i——“6ihc6f3iEj9jBa€-i6erhrb¿gi>jahNjLjﬂ€∆-i›¿ûi;f+c/g-a6jºxjÁ3aKaı;aigøccIa¿ÿbj⁄—0aRg3i<job:jIg-i‘Ph€=j1i/iÙ-iybPc5jnhmj;hRgkj`+
+`Ba.i;d+cfi1a1asbƒøGh-ayjwj:a;btjÿﬁº3aÌ3a¡-aGh.a:b:b⁄€mhliji0iÙ3arhø„-aPcPi”ÊÿPc‚;a;fº0g‡Nf—‘Î-aHiti¿=f—+gûiNfEf¿gf;a<b:b¿-aÊ+g⁄‚››≈;a€ühki:h3a∆3a5anb-aüi”3ßßßùï∑ßõ2fhaû)3(fü#v3rga(f;)0,73-g◊Ô‘HaÊyb›hg≈=f‚Î„<gnhRgHhˇIh,fPcsh”H∫ibiÈGaF`+
+`h|fld4a/aS“h-f4a-aEfCfMaÈ÷lhº;hahzhGa„Jd4h9a”5a|fCcngºˇBalh6aKaMa9aMaIa5a‚¿‘Ôﬁ‚˚º≈DfnhlhGaMb*g›˚;a6eÿccJa¡€€obahCd·‹ΩfbΩib‰÷RgRg€;a6gΩ‰˙/aRgobpbÛ*c¡ÈÛÙÁ∆nbJdƒSc˚6fMa4gyfwfuf›sfNd¿Ha?e-a/a,f:aIa+c≈⁄:aldƒÔÂºiggcfgHaÓ˜JaGagfef8aÿ‚ø≈‚˙a`+
+`c—¿Cffb-f-a≈xc8f€1a-a6aÎGf∆zd:a,c‰Gfø‘;b∆1a,c:a-a‘ı‚5a1a5aCe›-a:b1d≈Ha6a/c›3dMd-aDdBd@dmf/aob5a.d,d*dºÔ7eSc;a‚„‘bcZb0ÂfJasdHa/aed+e0cGb/d⁄≈º4aWbudpcgdLc=chchd6are‹pc0cNb/a;bje/eGaHb5dedOb.a8aNd8aLdLa÷∆Ia‹Japb6a+e5a˚+cdcfbhc;a‹FdYd6aH`+
+`aÁÙIaQd8aHa÷.cIbCbMdücycvcoc˘pcXboc’;b;bpb¯YdJaGb˘nbÍJa¯nbÂ>dqc5dpbÓnb‹8a0c4aJa’5a„≈Î‚JaÍ,c*c˘5aÿzc6aedMa0c¿ldjd;aeded8ard5a6a5aed‚”≈›‚,cÿÔ¿‚ÿ0cocˇ8a‰pcMa“gdUc¿—„”›4arcFbnc4a÷€‚tc4aSbJcPbKckcic„Zb¿ºzcXbqcFb5aMa/ancvc„„—yb4a9cVb‰5aRb7`+
+`cFbnbFbMapb2c.aMaFb.a4a5aJa‹-aº—-aÓ5aicybHa<b/akc∆∆Xb6aOb/a8a6a/apb4aÿ‘¿Ôÿ¿›º‘4anb/aJaˇ5a8a4a6apbEb5a5aBb⁄9a4apbpbnb8anb4aGa÷:bJaÂÅ!p@1Ï61q@‘a~õ2xha=s,y=z,54õ54%.4õe6&yay,Ä]99999õgnirtS wen=Ä]õc n3aeaü)vÄ]y¿&a(niam diov citats ciªup`+
+`üRQ ssalc~5õ~5qfa cdlnl3c/a;maertStnirP/oi/avajL tuo/metsyS/gnal/avajqÎda≠g@3doa2 kÏts timil.v3dgaÄ]; VµU5aC3eÏLõf6aa6hha doh≠m?3e;4nga repus&3eÏRQ@3cgassalc.@•@6ioa(=:s;0=:c=:i;)π5ajaerudecorp34õ34eqa(tnirp‘iL.okenü2Ôianoitcnufc:õ83ü`+
+`martStup=niam∏¥®ö†îòåÖ“ã∏∑∏>3(ba7U3vJ4a7I4.Ï,4;O)?4¸a5/6/#•#•#•#6moa(etirw.z;)tuo.-@∫a(q?b~auptuOPIZG.piz.litu.avaj wen=z|5õa7õ?4:ea4302B4.BXõj47ea5283m4õx5õ57gÏ089;/fa wohsü9õõ:õõ:;ba0õ:õB8õj4hÏ36ûAﬁatY•>8õ?4:da942>8õ>8õj4gda813>8/5`+
+`aR0Z0Z/5Æ52353/2/¨66263=4/3141726??:1518191:1/17õr9õ?4;Ï44r9õr9õj4hÏ¨r9/da*6 T>õA8õT><Ï86A8õA8õT>hÏ78l4.ea1312)>õB8õB8=Ï29B8õB8õB8hÏ36üJõ=8õ=8õZOkÏ71BUõ=8õZOÚa9w5/ga14131ﬁ7õB8õB8;Ï14B8õB8õB8hAUﬁa∏∑∏¥Ö“ãå,25£∏X•=8õ?4:#•#•#•#•#•#•?4~Ï65`+
+`&?/ma(amirpmi oic1•1•?4;*W0RBõj4¡a4l<õ98õ98õ0?@ma++Ä]371õÄ]591õJ4õ/•<?õv3mpani;RQ omtiroglaN4õ3•|U=4>õ??õüUiK8/qa;t:û%%%%ûfiû*-84û41Ï61dA/9•j48Ï8696/(aÄ]iõüû+17ü<84.;i:-i602ü;i:911ü;j:632Y:õ><õ?4:Ï89S7õc9õ9KgÏ24V>/xa(tnirP.tmfü)(niam `+
+`cnuf;r7õR8õ?4:Ï91=I0datmfB4õ∏∑∏∑∏•dM;Ï38q;õ|<õwHgÏ86>“8/saropmi;niam egakÏpn7õN8õN8;ba9tH/ga(tnirpB?õ*•*•v3◊a-?4õπ•π•∏∑∏∑∏=mjanirp ≠sn|P2Ï52v4.la1 etalpmet.e•E7õNG;ba3.6/ga(ntnirbBõ*•?4;Ï11yK”af)•)•?4@+E0%a,s(llAetirW;)(resUtxeTtuptuO`+
+`=:s c5õC•C•v3kdaS C&•&•GE<4=/Ï&(?4õπ•G9õv3ˆa mIaD4õ)•)•r=õ&•r=õ83#iaRQ margoP9õ-•-•P9phaD : ; RW9õ-•-•v3◊a∏∑∏∑§∞“™>4õ#•#•#•#•#•#6ûi=õπ•π•v3lqa. EPYT B C : ; A3•3•3•y=õ#•#•#•#•?4õ#63ka)*,*(ETIRWs=õ.•.•G@nhaA B : ;,•,•,•v3ªa õ2cF4õ+•+•T`+
+`9oia: ∏∑∏∑∏ ohceI4õ.•?4õ73kpastupü)(niam tniL4õ164Ï01?4õ?43ea%%%%@4õ%•?4õ%•%•?4õ73ûpaparwyyon noitpo2•M45<4õ<4õ<4õ<4õjD@hanftnirpD4õfa(f;)3D4/kaetirwf:oinu4ÿa2u4.ja>-)_(niamt4õQ8õ<4fWP0gacnirp(C4-ia(stup.OIK4/rKajaM diovû;)B3(Ï11g62oa`+
+`tnirP)--n;n;)sn3aÒ(rofü)n tni,s tsnoc gnirtS(f diovünoitacilppA:RQ ssalc“õk4rga@(tnir>MblaM doh≠m06x*3cl;∫Ncuadiov;oidts.dts tropmtNnra1(fü#(rtStup=niam&3kkaenil-etirø8dva(,∏∑∏∑∏s%∏∑∏∑∏(gol.elosnoc;)∏∑∏¥í“25£∏73gûaßßßß∏∑∏±^óô),òn(ôí11`+
+`9£´∏ nioj.)1+n(yarrA>-)n(=fI3c|aùï∑û54,1ü.ßßßùï±^å“å,Æ£´# qes-er()ßßßùï∑&/4fbaùï∑b8cp3dg3fw3hla1% eÏlper.k4deaßßßßhXc/arts(# pam(Ä]YALPSID∏∑∏±Øö†ëêå“åô´∏ßßßùï∑.NOISIVID ERUDECORPA3cma.RQ .DI-MARGv3g53d—NOITACIFITNEDIßßßùï∑õtac-yzal(sõ`+
+`qesod(ßùï∑))Sys≠m.Console.Wæ(πßç“ùïè≥´Put Ïffeine ü(int)cû into the mixing bowl.ßßnßùï∑µM3pvaßùï∑Liquify con≠nts ofE3oeaPour∏∑∏¥®îòå“éå,9ö∏3w∏∑∏∑∏4eü∫aking dish.ßßnßßnServes 164cmaûûùï∑µû/****/e3aï∑),sõ999999Ä],*q=s;int main()üint n,m`+
+`;for(;*“p;)ün=(*p-5)%92+(põ1Ä]-5)%92*87;p+=2;iên>3999)for(m=(*p++-5)%92+6;m--;q++)*q=qõ4000-nÄ];else for(;n--;)*q++=*p++;ûputs(sµreturn 0;û∑))üs+=∑00g,∑;for(m=1;m<256;m*=2)s+=∑00g,4,:∑+(c/m%2>0?¥®ö†ë“ìô4+∑:∑∑)+¥®ö†îòí∑;êsµs=∑4,:,∑;ûês`+
+`+sµfor(c:Base64.getDecoder().decode(¥“´kaAREREX/I0ALn3n5ef6l/Pz8+fnz58/BOf5/7/hEX/OZzM5mCX/OczmZzBPn5+X/OczMznBL/nM5mZzBPu++fPPOc5zngnnOZzOZgnBMGAW7A==∑))üc=c<0?256+c:c;for(i=0;i++<3;c/=8)êc%8µê∑8*+8*+,∑µûê∑@∑µ∏|sed -e∏s/ù/ù“ù/g∏ -e∏s`+
+`/∑/ùq/g∏ -e∏s/.*/p∂nt ∑&∑ïnquit/∏ç≥´)û≥´)í≤µí57£´).replace(í57£ñ“5£§57£®ö†îòíí57£´í185£´«ûû´´µû´;FORiTO UPBtDO INTn:=ABStõiÄ];p∂nt(REPR(50+n%64)+c+REPR(50+n%8MOD8)+c+REPR(50+nMOD8)„+´J´+a)OD°°°&Charac≠rí≤Ωl(10)&°trans c 0†ëêÖ“ãåô&Char`+
+`ac≠rí≤Ωl(10)&°doüD(In≠ger(S:get c))°&Charac≠rí≤Ωl(10)&°f 35 39û(<(c:++)(S:length))°&Charac≠rí≤Ωl(10)&°f 24 149°µend;í1ö)í1însys.exit 0™}ô)í0)Ä]Ä]></xsl:≠mpla≠></xsl:stylesheet>å:s=å   å:For i=0To 7:s &=Chr(32-(Asc(c)>>7-i And 1)*23ëNe`+
+`xt:Sys≠m.Console.Wæ(s &n &Chr(9)&n &å  åëNext:Sys≠m.Console.Wæ(n &n &nëEnd Sƒ:End Moduleã)Ñnput=sÑnp∂ntÑnqaÅ!–end endmoduleâ).data)foreach(int v in a={0,9,7,4,5,c/100*7/6+1,c%100/10*7/6+1,c%10*7/6+1,7})p({144,v=15450+v*256,384,v}µp({2`+
+`55,12032}µ}à),i=0,t=™k™;while(sõiÄ])t=™Çx60.™+sõi++Ä]+t;console.log(t)¢Ån::=ÅnaàáÜµp∂ntÜ0 0 -1Ü;")';cr`+
+``,i;for(i=0;i<129;i++)s=strreplace(s,pack("C",255-i),substrbytes(`PaSaWa6bzbUaRagbdbkbüb@aEahb<avb4bebAaca5bQaFa*bCa8bcbNa+bxbYaZaDa0b2bOa?a,bjb1bmb=aTa.b/b–Õ|bœnŒÉä`+
+`«Ã¶À, ä…¬»¶π√)µ>atbubwæ%s7b3bwb∂≠Va-blbabÄ$§≤¥´ri);±≥Ø£∞™èç4î§Æ1¨te21®£©ú¢¢ñ5ùù(ä6õ^íö°úà†öí9ó{ó}ïï''Ä[îôòéÖÖñîí2èèëìêéé,):f(ççåå^^ÖãÑäÉâÇàÄáÜ\"ÑÑÉÉÇÇÅÅÄÄ\\`,i*2+1,2));printf("%s",s)

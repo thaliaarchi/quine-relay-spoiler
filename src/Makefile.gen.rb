@@ -14,7 +14,7 @@ end
 OUT << <<-END
 MAKEFLAGS += --no-print-directory
 
-PATH := $(CURDIR)/vendor/local/bin:$(PATH)
+PATH := $(CURDIR)/vendor/local/bin:/usr/games:$(PATH)
 CLASSPATH := .
 
 find_any0 = $(firstword $(foreach x,$(1),$(if $(shell which $(x) 2>/dev/null),$(x),)))
@@ -24,7 +24,6 @@ find_any = $(call check,$(1),$(call find_any0,$(2)))
 JAVASCRIPT := $(call find_any,JavaScript,nodejs node js)
 SCHEME     := $(call find_any,Scheme,guile csi gosh)
 BF         := $(call find_any,Brainfuck,bf beef)
-GBS        := $(call find_any,Gambas script,gbs3 gbs2)
 
 ifeq ($(SCHEME),csi)
   SCHEME := csi -s
@@ -48,9 +47,21 @@ OUT << "\t@sha1sum --quiet -c SHA1SUMS"
   OUT << ""
   OUT << "#{ s2.src }: #{ s1.src }"
   banner(s1.name, s2.name, i)
-  OUT << "\t@mv #{ s1.backup } #{ s1.backup }.bak" if s1.backup
+  if s1.backup
+    if s1.backup.is_a?(String)
+      OUT << "\t@mv #{ s1.backup } #{ s1.backup }.bak"
+    else
+      OUT << "\t@#{ s1.backup[0] }"
+    end
+  end
   cmd.split("&&").each {|c| OUT << "\t" + c.strip.gsub(/^!/, "ulimit -s unlimited && ") }
-  OUT << "\t@mv #{ s1.backup }.bak #{ s1.backup }" if s1.backup
+  if s1.backup
+    if s1.backup.is_a?(String)
+      OUT << "\t@mv #{ s1.backup }.bak #{ s1.backup }"
+    else
+      OUT << "\t@#{ s1.backup[1] }"
+    end
+  end
 end
 
 OUT << <<-END
