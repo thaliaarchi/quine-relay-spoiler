@@ -431,6 +431,17 @@ class LiveScript < CodeGen
   Code = %q("console.log"+Q[E[PREV],?#])
 end
 
+class Julia < CodeGen
+  File = "QR.jl"
+  Cmd = "julia QR.jl > OUTFILE"
+  Apt = "julia"
+  def code
+    <<-'END'.lines.map {|l| l.strip }.join
+      %(print("""#{Q[e[PREV]]}"""))
+    END
+  end
+end
+
 class Ksh_LazyK_Lisaac < CodeGen
   Name = ["ksh", "Lazy K", "Lisaac"]
   File = ["QR.ksh", "QR.lazy", "qr.li"]
@@ -526,7 +537,7 @@ class Java_ < CodeGen
   Name = "Java"
   File = "QR.java"
   Cmd = "javac QR.java && java QR > OUTFILE"
-  Apt = "openjdk-8-jdk"
+  Apt = "openjdk-13-jdk"
   def code
     # LZ78-like compression
     <<-'END'.lines.map {|l| l.strip }.join
@@ -645,11 +656,11 @@ class Gri_Groovy_Gzip < CodeGen
   end
 end
 
-class GolfScript_GPortugol_Grass < CodeGen
-  Name = ["GolfScript", "G-Portugol", "Grass"]
-  File = ["QR.gs", "QR.gpt", "QR.grass"]
-  Cmd = ["ruby vendor/golfscript.rb QR.gs > OUTFILE", "gpt -o QR QR.gpt && ./QR > OUTFILE", "ruby vendor/grass.rb QR.grass > OUTFILE"]
-  Apt = [nil, "gpt", nil]
+class GolfScript_Grass < CodeGen
+  Name = ["GolfScript", "Grass"]
+  File = ["QR.gs", "QR.grass"]
+  Cmd = ["ruby vendor/golfscript.rb QR.gs > OUTFILE", "ruby vendor/grass.rb QR.grass > OUTFILE"]
+  Apt = [nil, nil]
   def code
     r = <<-'END'.lines.map {|l| l.strip }.join
       %(
@@ -661,14 +672,12 @@ class GolfScript_GPortugol_Grass < CodeGen
             .48<{71+}{[i]\\48-*}if
           }%
         }:t;
-        "algoritmo QR;in"[195][173]++'cio imprima("'
         @@PROLOGUE@@
         "#{e[PREV]}"
         {
           "W""w"@j 1+:j\\- @@MOD@@%1+*
         }%
         @@EPILOGUE@@
-        '");fim'
       )
     END
     mod, prologue, epilogue = ::File.read(::File.join(__dir__, "grass-boot.dat")).lines
@@ -737,6 +746,14 @@ class GAP < CodeGen
   Cmd = "gap -q QR.g > OUTFILE"
   Apt = "gap"
   Code = %q("s:=OutputTextUser();WriteAll(s,#{E[PREV]});CloseStream(s);QUIT;")
+end
+
+class Gambas < CodeGen
+  Name = "Gambas script"
+  File = "QR.gbs"
+  Cmd = "$(GBS) QR.gbs > OUTFILE"
+  Apt = "gambas3-script"
+  Code = %q(%(print"#{e[PREV]}"))
 end
 
 class Forth_FORTRAN77_Fortran90 < CodeGen
@@ -869,7 +886,7 @@ end
 class Curry < CodeGen
   Disabled = true
   File = "QR.curry"
-  Cmd = "pakcs :load QR.curry :save :quit && ./QR > OUTFILE"
+  Cmd = "pakcs --nocypm :load QR.curry :save :quit && ./QR > OUTFILE"
   Apt = "pakcs"
   Code = %q("main=putStr"+E[PREV])
 end
@@ -903,7 +920,7 @@ class Clojure_CMake_Cobol < CodeGen
     "cmake -P QR.cmake > OUTFILE",
     "cobc -O2 -x QR.cob && ./QR > OUTFILE",
   ]
-  Apt = ["clojure", "cmake", "open-cobol"]
+  Apt = ["clojure", "cmake", "gnucobol"]
   def code
     <<-'END'.lines.map {|l| l.strip }.join
       %(
@@ -916,7 +933,7 @@ class Clojure_CMake_Cobol < CodeGen
              (map #(str
                   "    \\""
                   (.replace %1"\\"""\\"\\"")
-                  "\\"&")
+                  "\\"")
                (re-seq #".{1,45}"
                   "#{e[PREV]}"))
              ["    \\" \\"."
@@ -1093,14 +1110,18 @@ end
 
 class AspectJ < CodeGen
   File = "QR.aj"
-  Cmd = "JAVACMD=/usr/lib/jvm/java-8-openjdk-amd64/bin/java ajc QR.aj && java QR > OUTFILE"
+  Cmd = "JAVACMD=/usr/lib/jvm/java-13-openjdk-amd64/bin/java ajc QR.aj && java QR > OUTFILE"
   Apt = "aspectj"
   def code
     <<-'END'.lines.map {|l| l.strip }.join
       %(
         class QR{
-          #$L void main(String[]v){
-            System.out.print(#{E[PREV.gsub(B,?^)]}.replace("^","\\\\"));
+          #$L void main(String[]a){
+            a=#{E[PREV.gsub(/\\+/){"^#{$&.size}^"}]}.split("\\\\^");
+            for(int i=1;i<a.length;a[0]+=a[i+1],i+=2){
+              a[0]+="\\\\".repeat(Integer.parseInt(a[i]));
+            }
+            System.out.print(a[0]);
           }
         }
       )
@@ -1398,20 +1419,27 @@ class Smalltalk < CodeGen
   Code = %q("Transcript show: '#{d[PREV,?']}';cr")
 end
 
-class Scilab_Sed_Shakespeare_SLang < CodeGen
-  Name = ["Scilab", "sed", "Shakespeare", "S-Lang"]
-  File = ["QR.sci", "QR.sed", "QR.spl", "QR.sl"]
+class Scheme_Sed_Shakespeare_SLang < CodeGen
+  Name = ["Scheme", "sed", "Shakespeare", "S-Lang"]
+  File = ["QR.scm", "QR.sed", "QR.spl", "QR.sls"]
   Cmd = [
-    "scilab -nwni -nb -f QR.sci > OUTFILE",
+    "$(SCHEME) QR.scm > OUTFILE",
     "sed -E -f QR.sed QR.sed > OUTFILE",
     "./vendor/local/bin/spl2c < QR.spl > QR.spl.c && gcc -o QR -I ./vendor/local/include -L ./vendor/local/lib QR.spl.c -lspl -lm && ./QR > OUTFILE",
-    "slsh QR.sl > OUTFILE",
+    "slsh QR.sls > OUTFILE",
   ]
-  Apt = ["scilab", "sed", nil, "slsh"]
+  Apt = ["guile-2.0", "sed", nil, "slsh"]
   def code
+    # NOTE: This code does not work for a short or simple text.
+    # This assumes the input is so complex enough that
+    # the compressed result won't be one character.
+    #
+    # * The Scheme program generates the encoded Shakespeare code.
+    # * sed program decodes and completes Shakespeare code.
+    # * The S-Lang program includes 8-bit characters and decompress the compression.
     <<-'END'.lines.map {|l| l.strip }.join
       %(
-        printf("
+        (display"
           1d;
           s/.//;
           s/1/ the sum of a son and0/g;
@@ -1425,40 +1453,30 @@ class Scilab_Sed_Shakespeare_SLang < CodeGen
           #Scene i: Relay.\\n
           #[Enter Ajax and Ford]\\n
           #Ajax:\\n
-          #");
-        function[]=f(s);
-          for i=1:2:length(s),
-            printf("2%s3",part(dec2bin(hex2dec(part(s,i:i+1))),$:-1:2)),
-          end;
-        endfunction\n
-        #{
+          #")
+        (define(f n m)
+          (if(= n 1)
+             (display(+(* m 10)3))
+             (f(quotient n 2)(+(* m 10)(modulo n 2)))))
+        (define(g _ n)
+          (if(> n 0)
+             (g(f(modulo n 256)2)(quotient n 256))))
+        (g 0(string->number"#{
           s,v=rp[PREV,127..255];
-          f(
-            %(
-              variable s=`#{s.gsub(/.{1,234}/){$&.gsub("`",%(`+"`"+`))+"`+\n`"}}`,i;
-              for(i=0;i<129;i++)
-                s=strreplace(
-                  s,
-                  pack("C",255-i),
-                  substrbytes(`#{v[0,99]}`+\n`#{v[99..-1]}`,i*2+1,2));
-              printf("%s",s)
-            ),7
-          ){
-            "f('%s')\n"%$s.unpack("H*")
-          }
-        }
-        printf("\\n#[Exeunt]");
-        quit
+          %(
+            variable s=`#{s.gsub(/.{1,234}/){$&+"`+\n`"}}`,i;
+            for(i=0;i<129;i++)
+              s=strreplace(
+                s,
+                pack(`C`,255-i),
+                substrbytes(`#{v[0,99]}`+\n`#{v[99..-1]}`,i*2+1,2));
+            printf(`%s`,s)
+          ).reverse.unpack1("H*")
+        }"16))
+        (display"\\n#[Exeunt]")
       )
     END
   end
-end
-
-class Scheme < CodeGen
-  File = "QR.scm"
-  Cmd = "$(SCHEME) QR.scm > OUTFILE"
-  Apt = "guile-2.0"
-  Code = %q(%((display "#{e[PREV]}")))
 end
 
 class Scala < CodeGen
