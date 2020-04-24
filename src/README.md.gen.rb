@@ -2,7 +2,7 @@ require_relative "code-gen"
 require "erb"
 require "cairo"
 
-other_packages = %w(cmake libpng-dev libgd-dev groff bison)
+other_packages = %w(cmake libpng-dev libgd-dev groff bison curl)
 other_packages.each do |package|
   `dpkg -s #{ package }` # just check the packages
 end
@@ -35,7 +35,7 @@ rows = rows.map do |col|
   (col.zip(ws).map {|s, w| s.ljust(w) } * "|").rstrip
 end
 
-apt_get = "sudo apt-get install #{ [*apts.flatten.compact.uniq, *other_packages].sort * " " }"
+apt_get = "sudo apt-get install #{ [*apts.flatten.compact.uniq].sort * " " }"
 apt_get.gsub!(/.{,70}( |\z)/) do
   $&[-1] == " " ? $& + "\\\n      " : $&
 end
@@ -89,7 +89,7 @@ First, you have to type the following apt-get command to install all of them.
 
 Then, build the bundled interpreters.
 
-    $ sudo apt-get install libpng-dev libgd-dev groff flex bison
+    $ sudo apt-get install <%= other_packages.join(" ") %>
     $ make -C vendor
 
 #### 2. Run each program on each interpreter/compiler.
@@ -196,7 +196,7 @@ See `vendor/README` in detail.
 
 The MIT License (MIT)
 
-Copyright (c) 2013, 2014, 2015, 2016, 2017, 2018, 2019 Yusuke Endoh (@mametter), @hirekoke
+Copyright (c) 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Yusuke Endoh (@mametter), @hirekoke
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
