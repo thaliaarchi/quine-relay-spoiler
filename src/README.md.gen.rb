@@ -20,7 +20,7 @@ rows += RunSteps.map.with_index do |s, idx|
   if s.apt.is_a?(Array)
     apt = s.apt.join(", ")
     ver = pkg_versions.values_at(*s.apt)
-    raise if ver.uniq.size > 1
+    #raise if ver.uniq.size > 1
     ver = ver.first
   else
     apt = s.apt || "*N/A*"
@@ -57,8 +57,7 @@ File.write("../README.md", ERB.new(DATA.read, nil, "%").result(binding))
 __END__
 # Quine Relay
 
-[![Build Status](https://travis-ci.org/mame/quine-relay.svg?branch=laboratory)](https://travis-ci.org/mame/quine-relay)
-[:heart:](https://github.com/sponsors/mame)
+[![CI](https://github.com/mame/quine-relay/workflows/CI/badge.svg)](https://github.com/mame/quine-relay/actions?query=workflow%3ACI)
 
 ## What this is
 
@@ -174,7 +173,7 @@ See also [:heart:][sponsors].
 
 ### Q. Does it really work?
 
-A. [![Build Status](https://travis-ci.org/mame/quine-relay.svg?branch=laboratory)](https://travis-ci.org/mame/quine-relay)
+A. [![CI](https://github.com/mame/quine-relay/workflows/CI/badge.svg)](https://github.com/mame/quine-relay/actions?query=workflow%2ACI)
 
 ### Q. How long did it take you?
 
