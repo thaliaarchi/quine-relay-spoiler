@@ -26,6 +26,7 @@ rows += RunSteps.map.with_index do |s, idx|
     apt = s.apt || "*N/A*"
     ver = pkg_versions[apt]
   end
+  ver = ver.gsub("~") { "\\~" } if ver
   [(idx + 1).to_s, s.name, apt, ver || "-"]
 end
 
@@ -208,7 +209,7 @@ See `vendor/README` in detail.
 
 The MIT License (MIT)
 
-Copyright (c) 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Yusuke Endoh (@mametter), @hirekoke
+Copyright (c) 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Yusuke Endoh (@mametter), @hirekoke
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
