@@ -33,7 +33,6 @@ class CodeGen
       cmd_raw = cmd_make
       cmd_raw = cmd_raw.gsub("$(SCHEME)", "guile")
       cmd_raw = cmd_raw.gsub("$(JAVASCRIPT)", "nodejs")
-      cmd_raw = cmd_raw.gsub("$(BF)", "bf -c500000")
       cmd_raw = cmd_raw.gsub("$(CC)", "gcc")
       cmd_raw = cmd_raw.gsub("$(CXX)", "g++")
       cmd_raw = cmd_raw.gsub("$(GBS)", "gbs3")
@@ -235,7 +234,7 @@ class Octave_Ook < CodeGen
   File = ["QR.octave", "QR.ook"]
   Cmd = [
     "mv QR.m QR.m.bak && octave -qf QR.octave > OUTFILE && mv QR.m.bak QR.m",
-    "ruby vendor/ook-to-bf.rb QR.ook QR.ook.bf && $(BF) QR.ook.bf > OUTFILE"
+    "ruby vendor/ook-to-bf.rb QR.ook QR.ook.bf && ruby vendor/bf.rb QR.ook.bf > OUTFILE"
   ]
   Apt = ["octave", nil]
   def code
@@ -271,6 +270,13 @@ class ObjC < CodeGen
   Cmd = "gcc -o QR QR.m && ./QR > OUTFILE"
   Apt = "gobjc"
   Code = %q("#import<stdio.h>#{N}int main(){puts#{E[PREV]+R}}")
+end
+
+class Nim < CodeGen
+  File = "QR.nim"
+  Cmd = "nim compile QR.nim && ./QR > OUTFILE"
+  Apt = "nim"
+  Code = %q("echo#{E[PREV]}")
 end
 
 class Nickle < CodeGen
@@ -702,14 +708,6 @@ class Gnuplot < CodeGen
   Code = %q('set print"-";print'+E[PREV])
 end
 
-class GeneratorScriptingLanguage < CodeGen
-  Name = "GeneratorScriptingLanguage"
-  File = "QR.gsl"
-  Cmd = "gsl -q QR.gsl > OUTFILE"
-  Apt = "generator-scripting-language"
-  Code = %q(".template 1\n#{d[PREV,B]}\n.endtemplate")
-end
-
 class GEL < CodeGen
   Name = "GEL (Genius)"
   File = "QR.gel"
@@ -885,6 +883,14 @@ end
 #  Code = %q("main=putStr"+E[PREV])
 #end
 
+class Crystal < CodeGen
+  Name = "Crystal"
+  File = "QR.cr"
+  Cmd = "crystal QR.cr > OUTFILE"
+  Apt = [["crystal", "libevent-dev"]]
+  Code = %q("puts#{E[PREV]}")
+end
+
 class CommonLisp < CodeGen
   Name = "Common Lisp"
   File = "QR.lisp"
@@ -1037,9 +1043,9 @@ class BeanShell_Befunge_BLC8_Brainfuck < CodeGen
     "bsh QR.bsh > OUTFILE",
     "cfunge QR.bef > OUTFILE",
     "ruby vendor/blc.rb < QR.Blc > OUTFILE",
-    "$(BF) QR.bf > OUTFILE",
+    "ruby vendor/bf.rb QR.bf > OUTFILE",
   ]
-  Apt = ["bsh", nil, nil, "bf"]
+  Apt = ["bsh", nil, nil, nil]
   def code
     blc = ::File.read(::File.join(__dir__, "blc-boot.dat"))
     <<-'END'.lines.map {|l| l.strip }.join.sub("BLC", [blc].pack("m0"))
@@ -1331,11 +1337,11 @@ class VisualBasic_WebAssemblyBinary_WebAssemblyText_Whitespace < CodeGen
       "@@DATA3@@" => '#{40.chr}'+data3[1..].gsub("\\"){"\\\\"},
       "@@DATA4@@" => data4.gsub("\\"){"\\\\"},
 
-      # precompute some expressions by assuming that 2**14 <= (287+s.size) < 2**21
-    # "@@CONST1@@" => '#{6+((287+s.size).bit_length-1)/7}',
+      # precompute some expressions by assuming that 2**14 <= (292+s.size) < 2**21
+    # "@@CONST1@@" => '#{6+((292+s.size).bit_length-1)/7}',
       "@@CONST1@@" => "8",
-    # "@@CONST2@@" => '287+125*6+126*(((287+s.size).bit_length-1)/7)',
-      "@@CONST2@@" => "1289"
+    # "@@CONST2@@" => '292+125*6+126*(((292+s.size).bit_length-1)/7)',
+      "@@CONST2@@" => "1294"
     })
   end
 end
@@ -1437,13 +1443,6 @@ class StandardML_Subleq < CodeGen
       )
     END
   end
-end
-
-class Squirrel < CodeGen
-  File = "QR.nut"
-  Cmd = "squirrel QR.nut > OUTFILE"
-  Apt = "squirrel3"
-  Code = %q("print"+E[PREV])
 end
 
 class Smalltalk < CodeGen
